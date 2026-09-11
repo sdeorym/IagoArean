@@ -1,0 +1,15 @@
+#about {
+    width: 75%;
+    margin: 15vh auto;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+#about img {
+    width: 75%;
+    display: block;
+}
+#about div {
+    margin: 5vh auto;
+    text-align: justify;
+}

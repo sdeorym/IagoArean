@@ -1,0 +1,44 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  /*max-width: 1440px;*/
+}
+:root {
+  --board: #eeeeee;
+  --charcoal: #333333; 
+  --sans: 'Inter', Roboto, sans-serif;
+  --heading: 'Fraunces', Georgia, serif;
+}
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+body {
+  background-color: var(--board);
+  color: var(--charcoal);
+  font-family: var(--sans);
+  margin: 0;
+  overflow-x: hidden;
+}
+h1 {
+  font-family: var(--heading);
+  font-size: clamp(1.25rem, 1.5vw + 1rem, 2rem);
+  line-height: 1.2;
+}
+h2 {
+  font-family: var(--heading);
+  font-size: clamp(1rem, 1.25vw + .75rem, 1.5rem);
+  line-height: 1.2;
+}
+h3 {
+  font-family: var(--sans);
+  font-size: clamp(1rem, 1.25vw + .75rem, 1.5rem);
+  line-height: 1.2;
+}
+h4 {
+  font-family: var(--sans);
+  font-size: clamp(.9rem, 1.1vw + .5rem, 1.25rem);
+  line-height: 1;
+}

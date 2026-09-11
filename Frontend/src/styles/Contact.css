@@ -1,0 +1,62 @@
+#contact {
+    position: relative; /* el contenedor es la referencia para el form */
+    width: 100%;
+    height: 100%;
+}
+#contact img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.contactForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* centra el form en medio de la imagen */
+    background-color: rgba(238, 238, 238, 0.9); /* fondo semitransparente para que se lea bien encima de la foto */
+    padding: 2rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+    max-width: 400px;
+    font-family: var(--sans);
+}
+.textbox {
+    display:flex;
+    flex-direction: column;
+    font-family: var(--sans);
+    text-align: left;
+    gap: 5px;
+}
+input, textarea {
+    font-family: var(--sans);
+    color: var(--charcoal);
+    border-radius: 5px;
+}
+input {
+    height: 4vh;
+}
+.submit {
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 12.5px;
+    width: 60%;
+    height: 5vh;
+    margin: 10% auto;
+    font-family: var(--sans);
+}
+.enabled {
+    background-color: var(--brown-focus);
+    color: var(--board);
+    background-color: var(--charcoal);    
+}
+.disabled {
+    background-color: var(--board);
+    color: var(--charcoal);
+    cursor: not-allowed;
+    pointer-events: none;
+}
