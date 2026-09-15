@@ -1,4 +1,4 @@
-function Button(type, value, title, text, classname, aria) {
+function Button({type, value, title, text, classname, aria}) {
     
     return (
         <>

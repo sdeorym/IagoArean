@@ -1,7 +1,9 @@
 import contact from '@assets/contact.jpg'
 import '@styles/Contact.css';
 import Button from "@components/Button";
-
+/*= {((formData.username!="") && (formData.email!="")) ? "submit enabled" : "submit disabled"}*/ "submit" 
+          /*disabled = {((formData.username=="") || (formData.email=="")) ? true : false}
+          data={formData}*/
 
 function Contact() {
 
@@ -26,9 +28,7 @@ function Contact() {
           value="Send" 
           title="Envoyer" 
           text="Envoyer"
-          classname = /*{((formData.username!="") && (formData.email!="")) ? "submit enabled" : "submit disabled"}*/ "submit" 
-          /*disabled = {((formData.username=="") || (formData.email=="")) ? true : false}
-          data={formData}*/
+          classname = "submit"
           aria="Bouton envoyer message"     
         />
       </form>
