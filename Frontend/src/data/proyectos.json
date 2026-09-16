@@ -1,0 +1,250 @@
+[
+    {
+        "id": 0,
+        "title": "The Boy and the Demon",
+        "motive": "Gobelins Graduation Shortfilm",
+        "year": 2026,
+        "type": "film",
+        "contents": [
+            {
+                "id": "0-a-0",
+                "description": "Storyboard Demo",
+                "source": "youtube",
+                "type": "animation"
+            },
+            {
+                "id": "0-a-1",
+                "description": "Animation",
+                "source": "youtube",
+                "type": "animation"
+            },
+            {
+                "id": "0-sb-0",
+                "description": "Story Beats / Thumbnails / Storyboard",
+                "source": "@assets/demon/demon_Storyboard_01.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "0-sb-1",
+                "description": "Story Beats / Thumbnails / Storyboard",
+                "source": "@assets/demon/demon_Storyboard_02.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "0-sb-2",
+                "description": "Story Beats / Thumbnails / Storyboard",
+                "source": "@assets/demon/demon_Storyboard_03.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "0-sb-3",
+                "description": "Story Beats / Thumbnails / Storyboard",
+                "source": "@assets/demon/demon_Storyboard_04.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "0-sb-4",
+                "description": "Story Beats / Thumbnails / Storyboard",
+                "source": "@assets/demon/demon_Storyboard_05.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "0-cd-0",
+                "description": "Character Design",
+                "source": "@assets/demon/demon_character_01.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "0-cd-1",
+                "description": "Character Design",
+                "source": "@assets/demon/demon_character_02.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "0-cd-2",
+                "description": "Character Design",
+                "source": "@assets/demon/demon_character_03.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "0-cd-3",
+                "description": "Character Design",
+                "source": "@assets/demon/demon_character_04.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "0-cd-4",
+                "description": "Character Design",
+                "source": "@assets/demon/demon_character_05.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "0-cd-5",
+                "description": "Character Design",
+                "source": "@assets/demon/demon_character_06.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "0-cd-6",
+                "description": "Character Design",
+                "source": "@assets/demon/demon_character_07.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "0-cd-7",
+                "description": "Character Design",
+                "source": "@assets/demon/demon_character_08.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "0-cd-8",
+                "description": "Character Design",
+                "source": "@assets/demon/demon_character_09.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "0-d-0",
+                "description": "Direction",
+                "source": "@assets/demon/demon_directing.webp",
+                "type": "Illustration"
+            }
+        ]
+    }, 
+    {
+        "id": 1,
+        "title": "Mémoires des cendres",
+        "motive": "Digital Graphic Novel Project about the Spanish Civil War",
+        "year": 2025,
+        "type": "Digital graphic novel",
+        "contents": [
+            {
+                "id": "1-sb-0",
+                "description": "Final Illustration",
+                "source": "@assets/memoires/memoires_Storyboard_01.webp",
+                "type": "Illustration"
+            },
+            {
+                "id": "0-sb-1",
+                "description": "Storyboard",
+                "source": "@assets/memoires/memoires_Storyboard_02.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "0-sb-2",
+                "description": "Storyboard",
+                "source": "@assets/memoires/memoires_Storyboard_03.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "0-sb-3",
+                "description": "Storyboard",
+                "source": "@assets/memoires/memoires_Storyboard_04.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "0-sb-4",
+                "description": "Storyboard",
+                "source": "@assets/memoires/memoires_Storyboard_05.webp",
+                "type": "storyboard"
+            }
+        ]
+    }, 
+    {
+        "id": 2,
+        "title": "Zaza the fish",
+        "motive": "Bouba & Zaza The Animated Series UNESCO / Michel Lafon / Gobelins",
+        "year": 2025,
+        "type": "film",
+        "contents": [
+            {
+                "id": "2-a-0",
+                "description": "Pilot Excerpt Animatic",
+                "source": "youtube",
+                "type": "animation"
+            }
+        ]
+    }, 
+    {
+        "id": 3,
+        "title": "A Sweet Tale",
+        "motive": "ANNECY FESTIVAL 2024 Opening Shortfilm ",
+        "year": 2024,
+        "type": "film",
+        "contents": [
+            {
+                "id": "3-a-0",
+                "description": "Annecy Festival 2024 Opening Shortfilm",
+                "source": "youtube",
+                "type": "animation"
+            },
+            {
+                "id": "3-s-0",
+                "description": "Scene fixed frame",
+                "source": "@assets/sweet/sweet_Storyboard_01.webp",
+                "type": "Illustration"
+            },
+            {
+                "id": "3-sb-0",
+                "description": "Storyboard",
+                "source": "@assets/sweet/sweet_Storyboard_02.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "3-sb-1",
+                "description": "Storyboard",
+                "source": "@assets/sweet/sweet_Storyboard_03.webp",
+                "type": "storyboard"
+            },
+                        {
+                "id": "3-sb-2",
+                "description": "Storyboard",
+                "source": "@assets/sweet/sweet_Storyboard_04.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "3-sb-1",
+                "description": "Character Design",
+                "source": "@assets/sweet/sweet_character_01.webp",
+                "type": "character design"
+            },
+            {
+                "id": "3-sb-2",
+                "description": "Character Design",
+                "source": "@assets/sweet/sweet_character_02.webp",
+                "type": "character design"
+            }]
+    }, 
+    {
+        "id": 4,
+        "title": "The Artist",
+        "motive": "Personal project",
+        "year": 2024,
+        "type": "personal",
+        "contents": [
+            {
+                "id": "4-cd-0",
+                "description": "Character Design",
+                "source": "@assets/artist/artist_character_00.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "4-cd-1",
+                "description": "Character Design",
+                "source": "@assets/artist/artist_character_01.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "4-cd-2",
+                "description": "Character Design",
+                "source": "@assets/artist/artist_character_02.webp",
+                "type": "storyboard"
+            },
+            {
+                "id": "4-cd-3",
+                "description": "Character Design",
+                "source": "@assets/artist/artist_character_03.webp",
+                "type": "storyboard"
+            }
+        ]
+    }
+]

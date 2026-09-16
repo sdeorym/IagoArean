@@ -42,6 +42,7 @@ footer {
   padding: 15px;
   width: 100vw;
   height: 70px;
+  gap: 5px;
 }
 .navLink {
   color: inherit;
@@ -50,4 +51,13 @@ footer {
 .activePage {
   font-weight: 900;
   text-transform: uppercase;
+}
+.networkLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10vw;
+}
+.networkLinks img {
+  width: 25px;
 }

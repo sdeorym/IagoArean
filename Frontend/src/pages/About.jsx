@@ -7,21 +7,13 @@ function About() {
     <section id="about">
       <img src={about} alt="Representación cubista del autor"></img>
       <div>
+        <p>Hola! I’m Iago, a Story Artist and Visual Storyteller.</p> 
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum adipisci, corporis temporibus aspernatur numquam, 
-          asperiores ipsum, voluptates eaque blanditiis iure perferendis quo eligendi. Ab, aut! Quis tempore eveniet accusantium 
-          consequatur.
-        </p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum adipisci, corporis temporibus aspernatur numquam, 
-          asperiores ipsum, voluptates eaque blanditiis iure perferendis quo eligendi. Ab, aut! Quis tempore eveniet accusantium 
-          consequatur.
-        </p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum adipisci, corporis temporibus aspernatur numquam, 
-          asperiores ipsum, voluptates eaque blanditiis iure perferendis quo eligendi. Ab, aut! Quis tempore eveniet accusantium 
-          consequatur.
-        </p>
+          Graduated with a Bachelor in Animated Filmmaking and a Master in Visual Storytelling at Gobelins Paris, I believe 
+          there is nothing more powerful than a meaningful story. Fascinated by drawing and animation since I am a kid, telling 
+          stories has always been a necessity for me.
+        </p> 
+        <p>I often fight with a Demon and I made a film about it.</p>
       </div>
     </section>
   )

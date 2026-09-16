@@ -1,12 +1,12 @@
 #about {
-    width: 75%;
+    width: 60%;
     margin: 15vh auto;
     display: flex;
     flex-direction: row;
     gap: 5vw;
 }
 #about img {
-    width: 75%;
+    width: 100%;
     display: block;
 }
 #about div {

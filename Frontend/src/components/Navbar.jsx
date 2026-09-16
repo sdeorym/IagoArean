@@ -10,12 +10,11 @@ function Navbar() {
     return (
         <nav>
             <span className="pageTitle">
-                <h1>Iago Arean</h1>
-                <h2>Portfolio animation</h2>
+                <NavLink to="/" className="tit"><h1>Iago Arean</h1></NavLink>
             </span>
             <span className="pageIndex">
-                <NavLink to="/" className={isHome ? "navLink activePage" : "navLink"}>Accueil</NavLink>
-                <NavLink to="/about" className={isAbout ? "navLink activePage" : "navLink"}>À propos</NavLink>
+                <NavLink to="/" className={isHome ? "navLink activePage" : "navLink"}>Home</NavLink>
+                <NavLink to="/about" className={isAbout ? "navLink activePage" : "navLink"}>About</NavLink>
                 <NavLink to="/portfolio/" className={isPort ? "navLink activePage" : "navLink"}>Portfolio</NavLink>
                 <NavLink to="/contact" className={isContact ? "navLink activePage" : "navLink"}>Contact</NavLink>
             </span>
