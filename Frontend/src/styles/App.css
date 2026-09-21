@@ -41,8 +41,8 @@ footer {
   text-align: center;
   padding: 15px;
   width: 100vw;
-  height: 70px;
-  gap: 5px;
+  height: 75px;
+  gap: 8px;
 }
 .navLink {
   color: inherit;
