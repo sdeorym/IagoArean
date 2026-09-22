@@ -9,9 +9,8 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
 }
-
 .gallery img {
-    width: 50%;
+    width: 75%; /* */
     aspect-ratio: 1 / 1; /* fuerza cuadrado, cambia a 4/3 o 16/9 si prefieres */
     object-fit: cover;
     display: block;

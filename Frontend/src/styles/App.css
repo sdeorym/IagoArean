@@ -61,3 +61,14 @@ footer {
 .networkLinks img {
   width: 25px;
 }
+.erreur {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10vw;
+  margin: 15vh auto;
+}
+.textErreur {
+  text-align: justify;
+  margin: 10vh 0;
+}

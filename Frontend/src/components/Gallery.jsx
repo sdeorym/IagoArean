@@ -1,9 +1,7 @@
-function Gallery({ images }) {
+function Gallery( { src, alt } ) {
   return (
     <div className="gallery">
-      {images.map((img) => (
-        <img key={img.id} src={img.source} alt={img.description} />
-      ))}
+      <img src= { src } alt={ alt }></img>
     </div>
   )
 }

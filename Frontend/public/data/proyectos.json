@@ -9,104 +9,121 @@
             {
                 "id": "0000",
                 "description": "Storyboard Demo",
-                "src": "youtube",
-                "type": "animation"
+                "src": "https://player.vimeo.com/video/1213084155?h=022a5310c9",
+                "type": "animation",
+                "video": true
             },
             {
                 "id": "0001",
                 "description": "Animation",
-                "src": "youtube",
-                "type": "animation"
+                "src": "https://player.vimeo.com/video/1213083307?h=3912c9b5ba",
+                "type": "animation",
+                "video": true
             },
             {
                 "id": "0002",
                 "description": "Story Beats / Thumbnails / Storyboard",
-                "src": "/images/demon/demon_Storyboard_01.webp",
-                "type": "storyboard"
+                "src": "/images/Demon/Demon_storyboard_01.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0003",
                 "description": "Story Beats / Thumbnails / Storyboard",
-                "src": "/images/demon/demon_Storyboard_02.webp",
-                "type": "storyboard"
+                "src": "/images/Demon/Demon_storyboard_02.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0004",
                 "description": "Story Beats / Thumbnails / Storyboard",
-                "src": "/images/demon/demon_Storyboard_03.webp",
-                "type": "storyboard"
+                "src": "/images/Demon/Demon_storyboard_03.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0005",
                 "description": "Story Beats / Thumbnails / Storyboard",
-                "src": "/images/demon/demon_Storyboard_04.webp",
-                "type": "storyboard"
+                "src": "/images/Demon/Demon_storyboard_04.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0006",
                 "description": "Story Beats / Thumbnails / Storyboard",
-                "src": "/images/demon/demon_Storyboard_05.webp",
-                "type": "storyboard"
+                "src": "/images/Demon/Demon_storyboard_05.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0007",
                 "description": "Character Design",
-                "src": "/images/demon/demon_character_01.webp",
-                "type": "storyboard"
+                "src": "/images/Demon/Demon_character_01.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0008",
                 "description": "Character Design",
-                "src": "/images/demon/demon_character_02.webp",
-                "type": "storyboard"
+                "src": "/images/Demon/Demon_character_02.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0009",
                 "description": "Character Design",
-                "src": "/images/demon/demon_character_03.webp",
-                "type": "storyboard"
+                "src": "/images/Demon/Demon_character_03.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0010",
                 "description": "Character Design",
-                "src": "/images/demon/demon_character_04.webp",
-                "type": "storyboard"
+                "src": "/images/Demon/Demon_character_04.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0011",
                 "description": "Character Design",
-                "src": "/images/demon/demon_character_05.webp",
-                "type": "storyboard"
+                "src": "/images/Demon/Demon_character_05.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0012",
                 "description": "Character Design",
-                "src": "/images/demon/demon_character_06.webp",
-                "type": "storyboard"
+                "src": "/images/Demon/Demon_character_06.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0013",
                 "description": "Character Design",
-                "src": "/images/demon/demon_character_07.webp",
-                "type": "storyboard"
+                "src": "/images/Demon/Demon_character_07.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0014",
                 "description": "Character Design",
-                "src": "/images/demon/demon_character_08.webp",
-                "type": "storyboard"
+                "src": "/images/Demon/Demon_character_08.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0015",
                 "description": "Character Design",
-                "src": "/images/demon/demon_character_09.webp",
-                "type": "storyboard"
+                "src": "/images/Demon/Demon_character_09.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0016",
                 "description": "Direction",
-                "src": "/images/demon/demon_directing.webp",
-                "type": "Illustration"
+                "src": "/images/Demon/Demon_directing.webp",
+                "type": "Illustration",
+                "video": false
             }
         ]
     }, 
@@ -120,32 +137,37 @@
             {
                 "id": "0100",
                 "description": "Final Illustration",
-                "src": "/images/memoires/memoires_Storyboard_01.webp",
-                "type": "Illustration"
+                "src": "/images/Memoires/Memoires_Storyboard_01.webp",
+                "type": "Illustration",
+                "video": false
             },
             {
                 "id": "0101",
                 "description": "Storyboard",
-                "src": "/images/memoires/memoires_Storyboard_02.webp",
-                "type": "storyboard"
+                "src": "/images/Memoires/Memoires_Storyboard_02.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0102",
                 "description": "Storyboard",
-                "src": "/images/memoires/memoires_Storyboard_03.webp",
-                "type": "storyboard"
+                "src": "/images/Memoires/Memoires_Storyboard_03.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0103",
                 "description": "Storyboard",
-                "src": "/images/memoires/memoires_Storyboard_04.webp",
-                "type": "storyboard"
+                "src": "/images/Memoires/Memoires_Storyboard_04.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0104",
                 "description": "Storyboard",
-                "src": "/images/memoires/memoires_Storyboard_05.webp",
-                "type": "storyboard"
+                "src": "/images/Memoires/Memoires_Storyboard_05.webp",
+                "type": "storyboard",
+                "video": false
             }
         ]
     }, 
@@ -159,8 +181,9 @@
             {
                 "id": "0200",
                 "description": "Pilot Excerpt Animatic",
-                "src": "youtube",
-                "type": "animation"
+                "src": "https://www.youtube.com/embed/3r3L-Kuv5YI",
+                "type": "animation",
+                "video": true
             }
         ]
     }, 
@@ -174,44 +197,51 @@
             {
                 "id": "0300",
                 "description": "Annecy Festival 2024 Opening Shortfilm",
-                "src": "youtube",
-                "type": "animation"
+                "src": "https://www.youtube.com/embed/bFc7Fi2_Cs4",
+                "type": "animation",
+                "video": true
             },
             {
                 "id": "0301",
                 "description": "Scene fixed frame",
-                "src": "/images/sweet/sweet_Storyboard_01.webp",
-                "type": "Illustration"
+                "src": "/images/Sweet/Sweet_storyboard_01.webp",
+                "type": "Illustration",
+                "video": false
             },
             {
                 "id": "0302",
                 "description": "Storyboard",
-                "src": "/images/sweet/sweet_Storyboard_02.webp",
-                "type": "storyboard"
+                "src": "/images/Sweet/Sweet_storyboard_02.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0303",
                 "description": "Storyboard",
-                "src": "/images/sweet/sweet_Storyboard_03.webp",
-                "type": "storyboard"
+                "src": "/images/Sweet/Sweet_storyboard_03.webp",
+                "type": "storyboard",
+                "video": false
             },
                         {
                 "id": "0304",
                 "description": "Storyboard",
-                "src": "/images/sweet/sweet_Storyboard_04.webp",
-                "type": "storyboard"
+                "src": "/images/Sweet/Sweet_storyboard_04.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0305",
                 "description": "Character Design",
-                "src": "/images/sweet/sweet_character_01.webp",
-                "type": "character design"
+                "src": "/images/Sweet/Sweet_character_01.webp",
+                "type": "character design",
+                "video": false
             },
             {
                 "id": "0306",
                 "description": "Character Design",
-                "src": "/images/sweet/sweet_character_02.webp",
-                "type": "character design"
+                "src": "/images/Sweet/Sweet_character_02.webp",
+                "type": "character design",
+                "video": false
             }]
     }, 
     {
@@ -224,26 +254,30 @@
             {
                 "id": "0400",
                 "description": "Character Design",
-                "src": "/images/artist/artist_character_00.webp",
-                "type": "storyboard"
+                "src": "/images/Artist/Artist_character_00.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0401",
                 "description": "Character Design",
-                "src": "/images/artist/artist_character_01.webp",
-                "type": "storyboard"
+                "src": "/images/Artist/Artist_character_01.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0402",
                 "description": "Character Design",
-                "src": "/images/artist/artist_character_02.webp",
-                "type": "storyboard"
+                "src": "/images/Artist/Artist_character_02.webp",
+                "type": "storyboard",
+                "video": false
             },
             {
                 "id": "0403",
                 "description": "Character Design",
-                "src": "/images/artist/artist_character_03.webp",
-                "type": "storyboard"
+                "src": "/images/Artist/Artist_character_03.webp",
+                "type": "storyboard",
+                "video": false
             }
         ]
     }

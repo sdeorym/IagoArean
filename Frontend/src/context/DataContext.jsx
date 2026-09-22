@@ -4,7 +4,7 @@ const DataContext = createContext({});
 
 export const api = {
   loadData: async () => {
-    const json = await fetch("../../public/data/proyectos.json");
+    const json = await fetch("../../data/proyectos.json");
     return json.json();
   },
 };
