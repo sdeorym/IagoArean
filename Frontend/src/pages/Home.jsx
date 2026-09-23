@@ -1,4 +1,4 @@
-import Hero from '@assets/hero.jpg'
+import Hero from '@assets/colombina.jpg'
 import '@styles/Hero.css';
 
 function Home() {

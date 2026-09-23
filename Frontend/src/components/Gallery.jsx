@@ -1,7 +1,7 @@
-function Gallery( { src, alt } ) {
+function Gallery( { src, alt, onClick } ) {
   return (
     <div className="gallery">
-      <img src= { src } alt={ alt }></img>
+      <img src= { src } alt={ alt } onClick = {onClick}></img>
     </div>
   )
 }
