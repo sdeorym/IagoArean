@@ -8,6 +8,7 @@ import App from "@pages/App";
 import Home from "@pages/Home";
 import About from "@pages/About"; 
 import Portfolio from '@pages/Portfolio';
+import Projects from '@pages/Projects';
 import Contact from '@pages/Contact';
 import Error from '@pages/Error';
 
@@ -17,9 +18,9 @@ const router = createBrowserRouter([
     children: [
       {path:"", element: <Home />,},      
       {path: "about", element: <About />,},
-      {
-        path: "portfolio/", 
-        element: <Portfolio />,
+      {path: "portfolio/", element: <Portfolio />,
+        children: [
+          { path: ":slug", element: <Projects /> }]
       },
       {path: "contact", element: <Contact />},
       {path: "error", element: <Error />,},

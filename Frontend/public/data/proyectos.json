@@ -2,283 +2,267 @@
     {
         "id": 0,
         "title": "The Boy and the Demon",
-        "motive": "Gobelins Graduation Shortfilm",
-        "year": 2026,
-        "type": "film",
-        "contents": [
-            {
+        "slug": "boyanddemon",
+        "image": "/images/Poster/BoyDemon.jpg",
+        "alt": "Poster from The Boy and the Demon animation picture",
+        "contents": 
+            [
+                {
                 "id": "0000",
-                "description": "Storyboard Demo",
-                "src": "https://player.vimeo.com/video/1213084155?h=022a5310c9",
-                "type": "animation",
-                "video": true
-            },
-            {
-                "id": "0001",
-                "description": "Animation",
-                "src": "https://player.vimeo.com/video/1213083307?h=3912c9b5ba",
-                "type": "animation",
-                "video": true
-            },
-            {
-                "id": "0002",
-                "description": "Story Beats / Thumbnails / Storyboard",
-                "src": "/images/Demon/Demon_storyboard_01.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0003",
-                "description": "Story Beats / Thumbnails / Storyboard",
-                "src": "/images/Demon/Demon_storyboard_02.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0004",
-                "description": "Story Beats / Thumbnails / Storyboard",
-                "src": "/images/Demon/Demon_storyboard_03.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0005",
-                "description": "Story Beats / Thumbnails / Storyboard",
-                "src": "/images/Demon/Demon_storyboard_04.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0006",
-                "description": "Story Beats / Thumbnails / Storyboard",
-                "src": "/images/Demon/Demon_storyboard_05.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0007",
-                "description": "Character Design",
-                "src": "/images/Demon/Demon_character_01.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0008",
-                "description": "Character Design",
-                "src": "/images/Demon/Demon_character_02.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0009",
-                "description": "Character Design",
-                "src": "/images/Demon/Demon_character_03.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0010",
-                "description": "Character Design",
-                "src": "/images/Demon/Demon_character_04.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0011",
-                "description": "Character Design",
-                "src": "/images/Demon/Demon_character_05.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0012",
-                "description": "Character Design",
-                "src": "/images/Demon/Demon_character_06.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0013",
-                "description": "Character Design",
-                "src": "/images/Demon/Demon_character_07.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0014",
-                "description": "Character Design",
-                "src": "/images/Demon/Demon_character_08.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0015",
-                "description": "Character Design",
-                "src": "/images/Demon/Demon_character_09.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0016",
                 "description": "Direction",
-                "src": "/images/Demon/Demon_directing.webp",
-                "type": "Illustration",
+                "src": "/images/Demon/Poster.webp",
                 "video": false
-            }
-        ]
-    }, 
+                }
+            ]
+    },
     {
         "id": 1,
-        "title": "Mémoires des cendres",
-        "motive": "Digital Graphic Novel Project about the Spanish Civil War",
-        "year": 2025,
-        "type": "Digital graphic novel",
-        "contents": [
-            {
-                "id": "0100",
-                "description": "Final Illustration",
-                "src": "/images/Memoires/Memoires_Storyboard_01.webp",
-                "type": "Illustration",
-                "video": false
-            },
-            {
-                "id": "0101",
-                "description": "Storyboard",
-                "src": "/images/Memoires/Memoires_Storyboard_02.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0102",
-                "description": "Storyboard",
-                "src": "/images/Memoires/Memoires_Storyboard_03.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0103",
-                "description": "Storyboard",
-                "src": "/images/Memoires/Memoires_Storyboard_04.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0104",
-                "description": "Storyboard",
-                "src": "/images/Memoires/Memoires_Storyboard_05.webp",
-                "type": "storyboard",
-                "video": false
-            }
-        ]
-    }, 
+        "title": "Storyboard",
+        "slug": "storyboard",
+        "image": "/images/Poster/Storyboard.webp",
+        "alt": "Storyboard from 'A sweet tale'",
+        "contents": 
+            [
+                {
+                    "id": "1000",
+                    "src": "/images/Storyboard/Demon_00.webp",
+                    "title": "The Boy and the Demon",
+                    "video": false
+                },
+                {
+                    "id": "1001",
+                    "src": "/images/Storyboard/Demon_01.webp",
+                    "title": "The Boy and the Demon",
+                    "video": false
+                },
+                {
+                    "id": "1002",
+                    "src": "/images/Storyboard/Demon_02.webp",
+                    "title": "The Boy and the Demon",
+                    "video": false
+                },
+                {
+                    "id": "1003",
+                    "src": "/images/Storyboard/Demon_03.webp",
+                    "title": "The Boy and the Demon",
+                    "video": false
+                },
+                {
+                    "id": "1004",
+                    "src": "/images/Storyboard/Demon_04.webp",
+                    "title": "The Boy and the Demon",
+                    "video": false
+                },
+                {
+                    "id": "1005",
+                    "src": "/images/Storyboard/Demon_05.webp",
+                    "title": "The Boy and the Demon",
+                    "video": false
+                },
+                {
+                    "id": "1006",
+                    "src": "/images/Storyboard/Memoires_00.webp",
+                    "title": "Mémoires des cendres",
+                    "video": false
+                },
+                {
+                    "id": "1007",
+                    "src": "/images/Storyboard/Memoires_01.webp",
+                    "title": "Mémoires des cendres",
+                    "video": false
+                },
+                {
+                    "id": "1008",
+                    "src": "/images/Storyboard/Memoires_02.webp",
+                    "title": "Mémoires des cendres",
+                    "video": false
+                },
+                {
+                    "id": "1009",
+                    "src": "/images/Storyboard/Memoires_03.webp",
+                    "title": "Mémoires des cendres",
+                    "video": false
+                },
+                {
+                    "id": "1010",
+                    "src": "/images/Storyboard/Memoires_04.webp",
+                    "title": "Mémoires des cendres",
+                    "video": false
+                },
+                                {
+                    "id": "1011",
+                    "src": "/images/Storyboard/Sweet_00.webp",
+                    "title": "A Sweet Tale",
+                    "video": false
+                },
+                                {
+                    "id": "1012",
+                    "src": "/images/Storyboard/Sweet_01.webp",
+                    "title": "A Sweet Tale",
+                    "video": false
+                },
+                                {
+                    "id": "1013",
+                    "src": "/images/Storyboard/Sweet_02.webp",
+                    "title": "A Sweet Tale",
+                    "video": false
+                },
+                                {
+                    "id": "1014",
+                    "src": "/images/Storyboard/Sweet_03.webp",
+                    "title": "A Sweet Tale",
+                    "video": false
+                }
+            ]
+    },
     {
         "id": 2,
-        "title": "Zaza the fish",
-        "motive": "Bouba & Zaza The Animated Series UNESCO / Michel Lafon / Gobelins",
-        "year": 2025,
-        "type": "film",
-        "contents": [
-            {
-                "id": "0200",
-                "description": "Pilot Excerpt Animatic",
-                "src": "https://www.youtube.com/embed/3r3L-Kuv5YI",
-                "type": "animation",
-                "video": true
-            }
-        ]
-    }, 
-    {
+        "title": "2D Animation",
+        "slug": "2danimation",
+        "image": "/images/Poster/2DAnimation.webp",
+        "alt": "Still picture from 'A sweet tale'",
+        "contents": 
+            [
+                {
+                    "id": "2000",
+                    "src": "https://player.vimeo.com/video/1213084155?h=022a5310c9",
+                    "title": "The Boy and the Demon",
+                    "video": true
+                },
+                {
+                    "id": "2001",
+                    "src": "https://player.vimeo.com/video/1213083307?h=3912c9b5ba",
+                    "title": "The Boy and the Demon",
+                    "video": true
+                },
+                {
+                    "id": "2002",
+                    "src": "https://www.youtube.com/embed/3r3L-Kuv5YI",
+                    "title": "Zaza the fish",
+                    "video": true
+                },
+                {
+                    "id": "2003",
+                    "src": "https://www.youtube.com/embed/bFc7Fi2_Cs4",
+                    "type": "A Sweet tale",
+                    "video": true
+                }
+            ]
+    },
+        {
         "id": 3,
-        "title": "A Sweet Tale",
-        "motive": "ANNECY FESTIVAL 2024 Opening Shortfilm ",
-        "year": 2024,
-        "type": "film",
-        "contents": [
-            {
-                "id": "0300",
-                "description": "Annecy Festival 2024 Opening Shortfilm",
-                "src": "https://www.youtube.com/embed/bFc7Fi2_Cs4",
-                "type": "animation",
-                "video": true
-            },
-            {
-                "id": "0301",
-                "description": "Scene fixed frame",
-                "src": "/images/Sweet/Sweet_storyboard_01.webp",
-                "type": "Illustration",
-                "video": false
-            },
-            {
-                "id": "0302",
-                "description": "Storyboard",
-                "src": "/images/Sweet/Sweet_storyboard_02.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0303",
-                "description": "Storyboard",
-                "src": "/images/Sweet/Sweet_storyboard_03.webp",
-                "type": "storyboard",
-                "video": false
-            },
-                        {
-                "id": "0304",
-                "description": "Storyboard",
-                "src": "/images/Sweet/Sweet_storyboard_04.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0305",
-                "description": "Character Design",
-                "src": "/images/Sweet/Sweet_character_01.webp",
-                "type": "character design",
-                "video": false
-            },
-            {
-                "id": "0306",
-                "description": "Character Design",
-                "src": "/images/Sweet/Sweet_character_02.webp",
-                "type": "character design",
-                "video": false
-            }]
-    }, 
-    {
+        "title": "Character Design",
+        "slug": "characterdesign",
+        "image": "/images/Poster/CharacterDesign.webp",
+        "alt": "Character Design of the demon from 'The Boy and the Demon'",
+        "contents": 
+            [
+                {
+                    "id": "3000",
+                    "src": "/images/Character/Demon_00.webp",
+                    "title": "The Boy and the Demon",
+                    "video": false
+                },
+                {
+                    "id": "3001",
+                    "src": "/images/Character/Demon_01.webp",
+                    "title": "The Boy and the Demon",
+                    "video": false
+                },
+                                {
+                    "id": "3002",
+                    "src": "/images/Character/Demon_02.webp",
+                    "title": "The Boy and the Demon",
+                    "video": false
+                },
+                {
+                    "id": "3003",
+                    "src": "/images/Character/Demon_03.webp",
+                    "title": "The Boy and the Demon",
+                    "video": false
+                },
+                                {
+                    "id": "3004",
+                    "src": "/images/Character/Demon_04.webp",
+                    "title": "The Boy and the Demon",
+                    "video": false
+                },
+                {
+                    "id": "3005",
+                    "src": "/images/Character/Demon_05.webp",
+                    "title": "The Boy and the Demon",
+                    "video": false
+                },
+                                {
+                    "id": "3006",
+                    "src": "/images/Character/Demon_06.webp",
+                    "title": "The Boy and the Demon",
+                    "video": false
+                },
+                {
+                    "id": "3007",
+                    "src": "/images/Character/Demon_07.webp",
+                    "title": "The Boy and the Demon",
+                    "video": false
+                },
+                                {
+                    "id": "3008",
+                    "src": "/images/Character/Demon_08.webp",
+                    "title": "The Boy and the Demon",
+                    "video": false
+                },
+                {
+                    "id": "3009",
+                    "src": "/images/Character/Sweet_01.webp",
+                    "title": "A Sweet Tale",
+                    "video": false
+                },
+                                {
+                    "id": "3010",
+                    "src": "/images/Character/Sweet_02.webp",
+                    "title": "A Sweet Tale",
+                    "video": false
+                },
+                {
+                    "id": "3011",
+                    "src": "/images/Character/Artist_00.webp",
+                    "title": "The Artist",
+                    "video": false
+                },
+                                {
+                    "id": "3012",
+                    "src": "/images/Character/Artist_01.webp",
+                    "title": "The Artist",
+                    "video": false
+                },
+                {
+                    "id": "3013",
+                    "src": "/images/Character/Artist_02.webp",
+                    "title": "The Artist",
+                    "video": false
+                },
+                                {
+                    "id": "3014",
+                    "src": "/images/Character/Artist_03.webp",
+                    "title": "The Artist",
+                    "video": false
+                }
+            ]
+    },
+        {
         "id": 4,
-        "title": "The Artist",
-        "motive": "Personal project",
-        "year": 2024,
-        "type": "personal",
-        "contents": [
-            {
-                "id": "0400",
-                "description": "Character Design",
-                "src": "/images/Artist/Artist_character_00.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0401",
-                "description": "Character Design",
-                "src": "/images/Artist/Artist_character_01.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0402",
-                "description": "Character Design",
-                "src": "/images/Artist/Artist_character_02.webp",
-                "type": "storyboard",
-                "video": false
-            },
-            {
-                "id": "0403",
-                "description": "Character Design",
-                "src": "/images/Artist/Artist_character_03.webp",
-                "type": "storyboard",
-                "video": false
-            }
-        ]
+        "title": "Other Projects",
+        "slug": "otherprojects",
+        "image": "/images/Poster/Other.jpg",
+        "alt": "Image from concept of Popol Vuh",
+        "contents": []
+    },
+        {
+        "id": 5,
+        "title": "Sketchbook",
+        "slug": "sketchbook",
+        "image": "/images/Poster/Sketchbook.jpg",
+        "alt": "Recreation of 'The Death of Colombina",
+        "contents": []
     }
 ]

@@ -36,13 +36,15 @@ nav {
 }
 footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   bottom: 0;
   text-align: center;
   padding: 15px;
-  width: 100vw;
-  height: 75px;
+  margin: 0px 25px;
+  width: 95vw;
+  height: 50px;
   gap: 8px;
+  justify-content:space-between;
 }
 .navLink {
   color: inherit;
@@ -56,16 +58,20 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 10vw;
+  gap: 2.5vw;
 }
 .networkLinks img {
   width: 25px;
+  transition: transform 0.3s ease;
+}
+.networkLinks img:hover {
+  transform: scale(2.1);
 }
 .erreur {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 10vw;
+  gap: 5vw;
   margin: 15vh auto;
 }
 .textErreur {

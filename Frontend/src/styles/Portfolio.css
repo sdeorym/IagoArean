@@ -1,8 +1,59 @@
 #portfolio {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin: 25px 10vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 25px 10vw;
+}
+.myLink {
+  color: var(--charcoal);
+  text-decoration: none;
+}
+.gateway {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 260px); /* o la altura que necesites */
+  gap: 1rem;
+}
+.gateway img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1.618 / 1;
+  object-fit: cover;
+  display: block;
+}
+.gate {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+.gate img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1.618 / 1;
+  object-fit: cover;
+  display: block;
+  
+}
+.gate:hover {
+    transform: scale(1.2);
+    z-index: 5;
+}
+.gate h3 {
+  position: absolute;
+  /*inset: 0;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--board);
+  bottom: 15px;
+  left: 15px;
+  margin: 0;
+  z-index: 1;
+}
+.gate::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--anthr);
 }
 .gallery {
     display: grid;
@@ -14,7 +65,7 @@
     aspect-ratio: 16 / 9; /* fuerza cuadrado, cambia a 4/3 o 16/9 si prefieres */
     object-fit: cover;
     display: block;
-    border: 5px solid var(--charcoal);
+    /*border: 5px solid var(--charcoal);*/
     transition: transform 0.3s ease;
 }
 .gallery img:hover {

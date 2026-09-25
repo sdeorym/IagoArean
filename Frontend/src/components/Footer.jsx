@@ -9,7 +9,7 @@ function Footer() {
                 <a href="https://www.instagram.com/iago.arean/"><img src={insta} alt="Instagram Icon" target="_blank"></img></a>
                 <a href="https://www.linkedin.com/in/santiago-arean-viveros/"><img src={lindin} alt="Linkedin Icon" target="_blank"></img></a>
             </span>
-            <span>© (Web) Susana de Ory</span>
+            <span>© Susana de Ory</span>
         </footer>
     )
 }
