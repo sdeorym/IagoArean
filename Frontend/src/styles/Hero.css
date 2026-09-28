@@ -1,6 +1,5 @@
 #hero {
-    height: 100vh - 150px;
-
+    height: 100%;
 }
 .heroPhoto {
     display: block;

@@ -1,18 +1,12 @@
-import { useState } from "react";
 import { useData } from "../context/DataContext";
 import { Link } from 'react-router-dom';
-import Modal from "@components/Modal";
-import CajaModal from "@components/CajaModal";
-import Gallery from "@components/Gallery";
 import Gate from "@components/Gate";
-import Videt from "@components/Videt";
 import '@styles/Portfolio.css';
 
 function Portfolio() {
   const { data, error } = useData()
-  const [isSelected, setIsSelected] = useState(null);
 
-  console.log("render, isSelected es:", isSelected); 
+  //console.log("render, isSelected es:", isSelected); 
   const projSum = data?.map((proj) => ({
       id: proj.id,
       title: proj.title,
@@ -38,19 +32,13 @@ function Portfolio() {
       <div className="gateway">   
         {projSum.map((i) =>
           <div key={i.id}>
-            <Link to={`:${i.slug}`} className="myLink" >
+            <Link to={`${i.slug}`} className="myLink" >
               <Gate title={i.title} src={i.image} alt= {i.alt} />
             </Link>
           </div>
         )}            
       </div>
-        {isSelected && (
-          <Modal 
-              opened={(isSelected !== null)} 
-              onClose={() => setIsSelected(null)}
-              content={isSelected && <CajaModal content={isSelected} />}>
-          </Modal>
-        )}
+
     </section>
   )
 }

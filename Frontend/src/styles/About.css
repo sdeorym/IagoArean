@@ -1,15 +1,51 @@
+/* BASE = MÓVIL */
 #about {
-    width: 60%;
-    margin: 20vh auto;
-    display: flex;
-    flex-direction: row;
-    gap: 5vw;
+    width: 75%;
+    margin: 3vh auto;
 }
-#about img {
+.whataboutism {
+    display: flex;
+    flex-direction: column;    
+    gap: 6vh;
+}
+.selfportrait {
     width: 100%;
+    height: auto;
     display: block;
 }
-#about div {
-    margin: 5vh auto;
+.whatatext {
+    margin: 0;
     text-align: justify;
+    font-size: 1rem;
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+    #about {
+        width: 80%;
+        margin: 4vh auto;
+    }
+    .whataboutism {
+        flex-direction: row;
+        align-items: center;
+        gap: 4vw;
+    }
+    .whatatext {
+        font-size: 1.15rem;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 1025px) {
+    #about {
+        width: 60%;
+        margin: 10vh auto;
+    }
+    .whataboutism {
+        gap: 5vw;
+    }
+    .whatatext {
+        margin: 5vh auto;
+        font-size: 1.25rem;
+    }
 }

@@ -1,13 +1,13 @@
-function Videt( {src} ) {
+function Videt( {src, caption} ) {
   return (
-    <div className="gallery">
+    <figure>
       <iframe
         src={src}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       />
-      <br />
-    </div>
+      {caption&&<figcaption>{caption}</figcaption>}
+    </figure>
   )
 }
 
