@@ -6,7 +6,6 @@ import '@styles/Portfolio.css';
 function Portfolio() {
   const { data, error } = useData()
 
-  //console.log("render, isSelected es:", isSelected); 
   const projSum = data?.map((proj) => ({
       id: proj.id,
       title: proj.title,
@@ -15,17 +14,6 @@ function Portfolio() {
       alt: proj.alt,
       contents: proj.contents,
     })) ?? [];
-
-/*
-    <div key={i.id}>
-            <h3>{i.title}</h3>
-            <p>{i.motive}, {i.year}</p>
-            <div className="gallery">
-              {i.contents?.map((j) =>
-                (j.video != true) ?
-                  <Gallery key={j.id} src={j.src} alt={j.description} onClick={() => { setIsSelected(j); console.log(isSelected);}} /> :
-                  <Videt key={j.id} src={j.src} />
-*/ 
 
   return (
     <section id="portfolio">

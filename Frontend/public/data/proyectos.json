@@ -3,7 +3,7 @@
         "id": 0,
         "title": "The Boy and the Demon",
         "slug": "boyanddemon",
-        "image": "/images/Poster/BoyDemon.jpg",
+        "image": "/images/Poster/BoyDemonCover.avif",
         "alt": "Poster from The Boy and the Demon animation picture",
         "contents": 
             [
@@ -19,7 +19,7 @@
         "id": 1,
         "title": "Storyboard",
         "slug": "storyboard",
-        "image": "/images/Poster/Storyboard.webp",
+        "image": "/images/Poster/StoryboardCover.avif",
         "alt": "Storyboard from 'A sweet tale'",
         "contents": 
             [
@@ -115,153 +115,155 @@
                 }
             ]
     },
-    {
-        "id": 2,
-        "title": "2D Animation",
-        "slug": "2danimation",
-        "image": "/images/Poster/2DAnimation.webp",
-        "alt": "Still picture from 'A sweet tale'",
-        "contents": 
-            [
-                {
-                    "id": "2000",
-                    "src": "https://player.vimeo.com/video/1213084155?h=022a5310c9",
-                    "title": "The Boy and the Demon",
-                    "video": true
-                },
-                {
-                    "id": "2001",
-                    "src": "https://player.vimeo.com/video/1213083307?h=3912c9b5ba",
-                    "title": "The Boy and the Demon",
-                    "video": true
-                },
-                {
-                    "id": "2002",
-                    "src": "https://www.youtube.com/embed/3r3L-Kuv5YI",
-                    "title": "Zaza the fish",
-                    "video": true
-                },
-                {
-                    "id": "2003",
-                    "src": "https://www.youtube.com/embed/bFc7Fi2_Cs4",
-                    "title": "A Sweet tale",
-                    "video": true
-                }
-            ]
-    },
         {
-        "id": 3,
+        "id": 2,
         "title": "Character Design",
         "slug": "characterdesign",
-        "image": "/images/Poster/CharacterDesign.webp",
+        "image": "/images/Poster/CharacterDesignCover.avif",
         "alt": "Character Design of the demon from 'The Boy and the Demon'",
         "contents": 
             [
                 {
-                    "id": "3000",
+                    "id": "2000",
                     "src": "/images/Character/Demon_00.webp",
                     "title": "The Boy and the Demon",
                     "video": false
                 },
                 {
-                    "id": "3001",
+                    "id": "2001",
                     "src": "/images/Character/Demon_01.webp",
                     "title": "The Boy and the Demon",
                     "video": false
                 },
-                                {
-                    "id": "3002",
+                {
+                    "id": "2002",
                     "src": "/images/Character/Demon_02.webp",
                     "title": "The Boy and the Demon",
                     "video": false
                 },
                 {
-                    "id": "3003",
+                    "id": "2003",
                     "src": "/images/Character/Demon_03.webp",
                     "title": "The Boy and the Demon",
                     "video": false
                 },
                                 {
-                    "id": "3004",
+                    "id": "2004",
                     "src": "/images/Character/Demon_04.webp",
                     "title": "The Boy and the Demon",
                     "video": false
                 },
                 {
-                    "id": "3005",
+                    "id": "2005",
                     "src": "/images/Character/Demon_05.webp",
                     "title": "The Boy and the Demon",
                     "video": false
                 },
                                 {
-                    "id": "3006",
+                    "id": "2006",
                     "src": "/images/Character/Demon_06.webp",
                     "title": "The Boy and the Demon",
                     "video": false
                 },
                 {
-                    "id": "3007",
+                    "id": "2007",
                     "src": "/images/Character/Demon_07.webp",
                     "title": "The Boy and the Demon",
                     "video": false
                 },
                                 {
-                    "id": "3008",
+                    "id": "2008",
                     "src": "/images/Character/Demon_08.webp",
                     "title": "The Boy and the Demon",
                     "video": false
                 },
                 {
-                    "id": "3009",
+                    "id": "2009",
                     "src": "/images/Character/Sweet_01.webp",
                     "title": "A Sweet Tale",
                     "video": false
                 },
                                 {
-                    "id": "3010",
+                    "id": "2010",
                     "src": "/images/Character/Sweet_02.webp",
                     "title": "A Sweet Tale",
                     "video": false
                 },
                 {
-                    "id": "3011",
+                    "id": "2011",
                     "src": "/images/Character/Artist_00.webp",
                     "title": "The Artist",
                     "video": false
                 },
                                 {
-                    "id": "3012",
+                    "id": "2012",
                     "src": "/images/Character/Artist_01.webp",
                     "title": "The Artist",
                     "video": false
                 },
                 {
-                    "id": "3013",
+                    "id": "2013",
                     "src": "/images/Character/Artist_02.webp",
                     "title": "The Artist",
                     "video": false
                 },
                                 {
-                    "id": "3014",
+                    "id": "2014",
                     "src": "/images/Character/Artist_03.webp",
                     "title": "The Artist",
                     "video": false
                 }
             ]
     },
-        {
+    {
+        "id": 3,
+        "title": "2D Animation",
+        "slug": "2danimation",
+        "image": "/images/Poster/2DAnimationCover.avif",
+        "alt": "Still picture from 'A sweet tale'",
+        "contents": 
+            [
+                {
+                    "id": "3000",
+                    "src": "https://player.vimeo.com/video/1213084155?h=022a5310c9",
+                    "title": "The Boy and the Demon",
+                    "video": true
+                },
+                {
+                    "id": "3001",
+                    "src": "https://player.vimeo.com/video/1213083307?h=3912c9b5ba",
+                    "title": "The Boy and the Demon",
+                    "video": true
+                },
+                {
+                    "id": "3002",
+                    "src": "https://www.youtube.com/embed/3r3L-Kuv5YI",
+                    "title": "Zaza the fish",
+                    "video": true
+                },
+                {
+                    "id": "3003",
+                    "src": "https://www.youtube.com/embed/bFc7Fi2_Cs4",
+                    "title": "A Sweet tale",
+                    "video": true
+                }
+            ]
+    },
+    {
         "id": 4,
-        "title": "Other Projects",
-        "slug": "otherprojects",
-        "image": "/images/Poster/Other.jpg",
+        "title": "Layout",
+        "slug": "layout",
+        "image": "/images/Poster/LayoutCover.avif",
         "alt": "Image from concept of Popol Vuh",
         "contents": []
     },
-        {
+
+
+    {
         "id": 5,
         "title": "Sketchbook",
         "slug": "sketchbook",
-        "image": "/images/Poster/Sketchbook.jpg",
+        "image": "/images/Poster/SketchbookCover.avif",
         "alt": "Recreation of 'The Death of Colombina",
         "contents": []
     }

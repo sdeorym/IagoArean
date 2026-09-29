@@ -1,4 +1,4 @@
-import about from '@assets/about.jpg'
+import about from '@assets/about.avif'
 import '@styles/About.css';
 
 function About() {
