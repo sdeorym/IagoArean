@@ -19,10 +19,16 @@ function Projects(  ) {
     <section id="project">
       <h3>{proyecto.title}</h3>
       <div className="gallery">
-        {proyecto.contents?.map((j) =>
-          (j.video != true) ?
-            <Gallery key={j.id} src={j.src} alt={j.description} onClick={() => setIsSelected(j)} caption={j.title}/> :
-            <Videt key={j.id} src={j.src} caption={j.title}/>
+        {proyecto.projects?.map((i) =>
+          <div key={i.id}>
+          <h4>{i.Name}</h4>
+          <p className="kindOf">{i.Situation}</p>
+          {i.contents.map((j) => 
+            (j.video != true) ?
+              <Gallery key={j.id} src={j.src} alt={j.alt} onClick={() => setIsSelected(j)} /> :
+              <Videt key={j.id} src={j.src} />
+          )}
+          </div>
         )}
       </div>
       {isSelected && (

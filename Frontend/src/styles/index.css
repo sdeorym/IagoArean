@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 :root {
-  --board: #eeeeee;
+  --board: #ffffff;
   --charcoal: #333333;
   --coal: rgba(21, 21, 21, 0.75);
   --anthr: rgba(21, 21, 21, 0.5);

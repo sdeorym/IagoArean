@@ -12,6 +12,7 @@ function Portfolio() {
       slug: proj.slug,
       image: proj.image,
       alt: proj.alt,
+      projects: proj.projects,
       contents: proj.contents,
     })) ?? [];
 

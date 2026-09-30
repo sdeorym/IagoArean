@@ -1,4 +1,4 @@
-import contact from '@assets/contact.jpg'
+import contact from '@assets/diavolo.avif'
 import '@styles/Contact.css';
 import Button from "@components/Button";
 import { useState } from "react";
@@ -43,31 +43,34 @@ function Contact() {
 
   return (
     <section id="contact">
-      <img src={contact} alt="Iago Arean's self-portrait in Egon Schiele style."></img>
-      <form className="contactForm">
-        <div className="textbox">
-          <label htmlFor="username">Nom</label>
-          <input placeholder="Your name here" type="text" id="username" name="username" autoComplete="name" onBlur={handleChange} required />
-        </div>
-        <div className="textbox">
-          <label htmlFor="email">Courriel</label>
-          <input placeholder="info@example.com" type="email" id="email" name="email" autoComplete="email" onBlur={handleChange} required />
-        </div>
-        <div className="textbox">
-          <label htmlFor="message">Message</label>
-          <textarea id="message" className="messagebox" type="message" name="message" rows="10" placeholder="Your message here" onBlur={handleChange} required />
-        </div>
-        <Button 
-          type="submit" 
-          value="Send" 
-          title="Envoyer" 
-          text="Envoyer" 
-          classname = {((formData.username!="") && (formData.email!="")) ? "submit enabled" : "submit disabled"}
-          disabled = {((formData.username=="") || (formData.email=="")) ? true : false}
-          data={formData} 
-          aria="Button to send message"     
-        />
-      </form>
+      <div className="diavoloForm">
+        <img src={contact} alt="Iago Arean's self-portrait in Egon Schiele style."></img>
+        <form className="contactForm">
+          <h3>CONTACT</h3>
+          <div className="textbox">
+            <label htmlFor="username">Name</label>
+            <input placeholder="Your name here" type="text" id="username" name="username" autoComplete="name" onBlur={handleChange} required />
+          </div>
+          <div className="textbox">
+            <label htmlFor="email">Email</label>
+            <input placeholder="info@example.com" type="email" id="email" name="email" autoComplete="email" onBlur={handleChange} required />
+          </div>
+          <div className="textbox">
+            <label htmlFor="message">Message</label>
+            <textarea id="message" className="messagebox" type="message" name="message" rows="10" placeholder="Your message here" onBlur={handleChange} required />
+          </div>
+          <Button 
+            type="submit" 
+            value="Send" 
+            title="Send" 
+            text="Send" 
+            classname = {((formData.username!="") && (formData.email!="")) ? "submit enabled" : "submit disabled"}
+            disabled = {((formData.username=="") || (formData.email=="")) ? true : false}
+            data={formData} 
+            aria="Button to send message"     
+          />
+        </form>
+      </div>
     </section>
   )
 }
