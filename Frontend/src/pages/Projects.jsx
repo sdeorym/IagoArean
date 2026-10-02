@@ -17,17 +17,23 @@ function Projects(  ) {
 
   return (
     <section id="project">
-      <h3>{proyecto.title}</h3>
       <div className="gallery">
         {proyecto.projects?.map((i) =>
           <div key={i.id}>
-          <h4>{i.Name}</h4>
+          <h3>{i.Name}</h3>
           <p className="kindOf">{i.Situation}</p>
-          {i.contents.map((j) => 
-            (j.video != true) ?
-              <Gallery key={j.id} src={j.src} alt={j.alt} onClick={() => setIsSelected(j)} /> :
-              <Videt key={j.id} src={j.src} />
-          )}
+            <div className="mosaic">          
+              {i.contents.map((j) =>
+                (j.video != true) ? (
+                  <div key={j.id}>
+                    <Gallery src={j.src} alt={j.alt} classname={j.className} onClick={() => setIsSelected(j)} />
+                    <span dangerouslySetInnerHTML={{ __html: j.text }} />
+                  </div>
+                ) : (
+                  <Videt key={j.id} src={j.src} />
+                )
+              )}
+            </div>
           </div>
         )}
       </div>

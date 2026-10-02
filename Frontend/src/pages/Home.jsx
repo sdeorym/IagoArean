@@ -8,7 +8,7 @@ function Home() {
     <section id="hero">
       <picture>
         <source media="(max-width: 1024px)" srcSet={HeroMS} />
-        <img src={HeroL} alt="Kind of hero" className="heroPhoto" />
+        <img src={HeroL} alt="Fugue" className="heroPhoto" />
       </picture>
     </section>
   )

@@ -4,7 +4,9 @@ function CajaModal({content}) {
 
 return (
     <>
-        <img src={content.src} alt={content.description}></img>
+        <div className="caja">
+            <img src={content.src} alt={content.description}></img>
+        </div>
     </>
 )
 

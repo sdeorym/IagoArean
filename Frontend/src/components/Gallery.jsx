@@ -1,7 +1,7 @@
-function Gallery( { src, alt, onClick, caption } ) {
+function Gallery( { src, alt, classname, onClick, caption } ) {
   return (
     <figure>
-      <img src= { src } alt={ alt } onClick = {onClick}></img>
+      <img src= { src } alt={ alt } className={classname} onClick = {onClick}></img>
       {caption&&<figcaption>{caption}</figcaption>}
     </figure>
   )

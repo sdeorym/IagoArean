@@ -1,11 +1,149 @@
 [
     {
         "id": 0,
-        "title": "The Boy and the Demon",
+        "title": "",
         "slug": "boyanddemon",
         "image": "/images/Poster/BoyDemonCover.avif",
         "alt": "Poster from The Boy and the Demon animation picture",
-        "projects": []
+        "projects": 
+            [
+                {
+                    "id": "000",
+                    "Name": "",
+                    "Situation": "",
+                    "contents":
+                        [
+                            {
+                                "id": "00000",
+                                "src": "/images/Demon/Demon_00.avif",
+                                "alt": "The boy and the Demon title",
+                                "className": "titulin",
+                                "video": false
+                            },
+                            {
+                                "id": "00001",
+                                "src": "/images/Demon/Demon_01.avif",
+                                "alt": "The boy and the Demon poster",
+                                "text": "<span className='present'><p>The Boy, a young artist, comes to his studio and decides to draw a flower. But as soon as he starts, the Demon shows up: <i>the flower is Not Good Enough!</i></p><p>As the Demon grows bigger and louder, the Boy will try everything to get rid of him.</p><p>Will he manage to do draw his flower? Will it be Good Enough?</p><p>Currently in Official Selection of Mexican Animated Shortfilms for the FICM festival 2026 in Morelia, Mexico.</p></span>",
+                                "video": false
+                            }
+                        ]
+                },
+                {
+                    "id": "001",
+                    "Name": "The Boy and the Demon - Gobelins Graduation Film",
+                    "Situation": "Character explorations",
+                    "contents":
+                        [
+                            {
+                                "id": "00100",
+                                "src": "/images/Demon/Demon_02.avif",
+                                "alt": "Character explorations",
+                                "video": false
+                            },
+                            {
+                                "id": "00101",
+                                "src": "/images/Demon/Demon_03.avif",
+                                "alt": "Character explorations",
+                                "video": false
+                            },
+                            {
+                                "id": "00102",
+                                "src": "/images/Demon/Demon_04.avif",
+                                "alt": "Character explorations",
+                                "video": false
+                            },
+                            {
+                                "id": "00103",
+                                "src": "/images/Demon/Demon_05.avif",
+                                "alt": "Character explorations",
+                                "video": false
+                            },
+                            {
+                                "id": "00104",
+                                "src": "/images/Demon/Demon_06.avif",
+                                "alt": "Character explorations",
+                                "video": false
+                            },
+                                                        {
+                                "id": "00105",
+                                "src": "/images/Demon/Demon_07.avif",
+                                "alt": "Character explorations",
+                                "video": false
+                            },
+                                                        {
+                                "id": "00106",
+                                "src": "/images/Demon/Demon_08.avif",
+                                "alt": "Character explorations",
+                                "video": false
+                            },
+                                                        {
+                                "id": "00107",
+                                "src": "/images/Demon/Demon_09.avif",
+                                "alt": "Character explorations",
+                                "video": false
+                            },
+                                                        {
+                                "id": "00108",
+                                "src": "/images/Demon/Demon_10.avif",
+                                "alt": "Character explorations",
+                                "video": false
+                            },
+                                                        {
+                                "id": "00109",
+                                "src": "/images/Demon/Demon_11.avif",
+                                "alt": "Character explorations",
+                                "video": false
+                            }
+                        ]
+                },
+                {
+                    "id": "002",
+                    "Name": "The Boy and the Demon - Gobelins Graduation Film",
+                    "Situation": "Props",
+                    "contents":
+                        [
+                            {
+                                "id": "00200",
+                                "src": "/images/Demon/Demon_12.avif",
+                                "alt": "Props",
+                                "video": false
+                            },
+                            {
+                                "id": "00201",
+                                "src": "/images/Demon/Demon_13.avif",
+                                "alt": "Props",
+                                "video": false
+                            },
+                            {
+                                "id": "00202",
+                                "src": "/images/Demon/Demon_14.avif",
+                                "alt": "Props",
+                                "video": false
+                            }
+                        ]
+                },
+                {
+                    "id": "003",
+                    "Name": "The Boy and the Demon - Gobelins Graduation Film",
+                    "Situation": "Layouts",
+                    "contents":
+                        [
+                            {
+                                "id": "00300",
+                                "src": "/images/Demon/Demon_15.avif",
+                                "alt": "Layouts",
+                                "video": false
+                            },
+                            {
+                                "id": "00301",
+                                "src": "/images/Demon/Demon_16.avif",
+                                "alt": "Layouts",
+                                "video": false
+                            }
+                        ]
+                }
+            ]
 
     },
     {
@@ -24,7 +162,6 @@
                         [
                             {
                                 "id": "10000",
-                                "description": "Storyboard Demo 2026",
                                 "src": "https://player.vimeo.com/video/1213084155?h=022a5310c9",
                                 "video": true
                             }
@@ -122,10 +259,27 @@
                     "contents":
                         [
                             {
-                                "id": "10300",
-                                "description": "Storyboard Demo 2026",
+                                "id": "20300",
                                 "src": "https://www.youtube.com/embed/3r3L-Kuv5YI",
                                 "video": true
+                            },
+                            {
+                                "id": "20301",
+                                "src": "/images/Storyboard/Zaza_00.avif",
+                                "alt": "Bouba & Zaza storyboard",
+                                "video": false
+                            },
+                            {
+                                "id": "20302",
+                                "src": "/images/Storyboard/Zaza_01.avif",
+                                "alt": "Bouba & Zaza storyboard",
+                                "video": false
+                            },
+                            {
+                                "id": "20303",
+                                "src": "/images/Storyboard/Zaza_02.avif",
+                                "alt": "Bouba & Zaza storyboard",
+                                "video": false
                             }
                         ]
                 },
@@ -137,26 +291,26 @@
                         [
                             {
                                 "id": "10400",
-                                "description": "Thumbnails & Storyboards",
                                 "src": "/images/Storyboard/Sweet_00.webp",
+                                "alt": "A Sweet Tale Thumbnails & Storyboards",
                                 "video": false
                             },
                             {
                                 "id": "10401",
-                                "description": "Thumbnails & Storyboards",
                                 "src": "/images/Storyboard/Sweet_01.webp",
+                                "alt": "A Sweet Tale Thumbnails & Storyboards",
                                 "video": false
                             },
                             {
                                 "id": "10402",
-                                "description": "Thumbnails & Storyboards",
                                 "src": "/images/Storyboard/Sweet_02.webp",
+                                "alt": "A Sweet Tale Thumbnails & Storyboards",
                                 "video": false
                             },
                             {
                                 "id": "10403",
-                                "description": "Thumbnails & Storyboards",
                                 "src": "/images/Storyboard/Sweet_03.webp",
+                                "alt": "A Sweet Tale Thumbnails & Storyboards",
                                 "video": false
                             }
                         ]
@@ -180,55 +334,61 @@
                             {
                                 "id": "20000",
                                 "src": "/images/Character/Demon_00.avif",
-                                "title": "The Boy and the Demon",
+                                "alt": "The Boy and the Demon",
                                 "video": false
                             },
                             {
                                 "id": "20001",
                                 "src": "/images/Character/Demon_01.avif",
-                                "title": "The Boy and the Demon",
+                                "alt": "The Boy and the Demon",
                                 "video": false
                             },
                             {
                                 "id": "20002",
                                 "src": "/images/Character/Demon_02.avif",
-                                "title": "The Boy and the Demon",
+                                "alt": "The Boy and the Demon",
                                 "video": false
                             },
                                                     {
                                 "id": "20003",
                                 "src": "/images/Character/Demon_03.avif",
-                                "title": "The Boy and the Demon",
+                                "alt": "The Boy and the Demon",
                                 "video": false
                             },
                             {
                                 "id": "20004",
                                 "src": "/images/Character/Demon_04.avif",
-                                "title": "The Boy and the Demon",
+                                "alt": "The Boy and the Demon",
                                 "video": false
                             },
                             {
                                 "id": "20005",
                                 "src": "/images/Character/Demon_05.avif",
-                                "title": "The Boy and the Demon",
+                                "alt": "The Boy and the Demon",
                                 "video": false
                             },
                                                         {
                                 "id": "20006",
                                 "src": "/images/Character/Demon_06.avif",
-                                "title": "The Boy and the Demon",
+                                "alt": "The Boy and the Demon",
                                 "video": false
                             },
                             {
                                 "id": "20007",
                                 "src": "/images/Character/Demon_07.avif",
-                                "title": "The Boy and the Demon",
+                                "alt": "The Boy and the Demon",
                                 "video": false
                             },
                             {
                                 "id": "20008",
                                 "src": "/images/Character/Demon_08.avif",
-                                "title": "The Boy and the Demon",
+                                "alt": "The Boy and the Demon",
+                                "video": false
+                            },
+                            {
+                                "id": "20009",
+                                "src": "/images/Character/Demon_09.avif",
+                                "alt": "The Boy and the Demon",
                                 "video": false
                             }
                         ]
@@ -242,13 +402,13 @@
                             {
                                 "id": "20100",
                                 "src": "/images/Character/Sweet_00.avif",
-                                "title": "A Sweet Tale",
+                                "alt": "A Sweet Tale",
                                 "video": false
                             },
                             {
                                 "id": "20101",
                                 "src": "/images/Character/Sweet_01.avif",
-                                "title": "A Sweet Tale",
+                                "alt": "A Sweet Tale",
                                 "video": false
                             }
                         ]
@@ -262,25 +422,25 @@
                             {
                                 "id": "20200",
                                 "src": "/images/Character/Artist_00.avif",
-                                "title": "The Artist",
+                                "alt": "The Artist",
                                 "video": false
                             },
                             {
                                 "id": "20201",
                                 "src": "/images/Character/Artist_01.avif",
-                                "title": "The Artist",
+                                "alt": "The Artist",
                                 "video": false
                             },
                             {
                                 "id": "20202",
                                 "src": "/images/Character/Artist_02.avif",
-                                "title": "The Artist",
+                                "alt": "The Artist",
                                 "video": false
                             },
                             {
                                 "id": "20203",
                                 "src": "/images/Character/Artist_03.avif",
-                                "title": "The Artist",
+                                "alt": "The Artist",
                                 "video": false
                             }
                         ]
@@ -294,19 +454,19 @@
                             {
                                 "id": "20300",
                                 "src": "/images/Character/Schiele_00.avif",
-                                "title": "Schiele",
+                                "alt": "Schiele",
                                 "video": false
                             },
                             {
                                 "id": "20301",
                                 "src": "/images/Character/Schiele_01.avif",
-                                "title": "Schiele",
+                                "alt": "Schiele",
                                 "video": false
                             },
                             {
                                 "id": "20302",
                                 "src": "/images/Character/Schiele_02.avif",
-                                "title": "Schiele",
+                                "alt": "Schiele",
                                 "video": false
                             }
                         ]
@@ -330,7 +490,6 @@
                             {
                                 "id": 30000,
                                 "src": "https://player.vimeo.com/video/1213083307?h=3912c9b5ba",
-                                "title": "The Boy and the Demon",
                                 "video": true
                             }
                         ]
@@ -344,7 +503,6 @@
                             {
                                 "id": 30100,
                                 "src": "https://www.youtube.com/embed/JA66jYHLxLw",
-                                "title": "A Sweet Tale",
                                 "video": true
                             }
                         ]
@@ -361,122 +519,177 @@
             [
                 {
                     "id": "400",
-                    "Name": "Gozzoviglia",
-                    "Situation": "FX Exercice 2024",
-                    "contents": 
+                    "Name": "The Boy And the Demon",
+                    "Situation": "Gobelins Graduation Shortfilm 2026",
+                    "contents":
                         [
                             {
                                 "id": "40000",
-                                "src": "/images/Layout/Gozzoviglia_00.avif",
-                                "title": "Gozzoviglia",
+                                "src": "/images/Layout/Demon_00.avif",
+                                "alt": "The Boy and the Demon Layout",
+                                "video": false
+                            },
+                            {
+                                "id": "40000",
+                                "src": "/images/Layout/Demon_01.avif",
+                                "alt": "The Boy and the Demon Layout",
+                                "video": false
+                            },
+                            {
+                                "id": "40000",
+                                "src": "/images/Layout/Demon_02.avif",
+                                "alt": "The Boy and the Demon Layout",
+                                "video": false
+                            },
+                            {
+                                "id": "40000",
+                                "src": "/images/Layout/Demon_03.avif",
+                                "alt": "The Boy and the Demon Layout",
+                                "video": false
+                            },
+                            {
+                                "id": "40000",
+                                "src": "/images/Layout/Demon_04.avif",
+                                "alt": "The Boy and the Demon Layout",
+                                "video": false
+                            },
+                            {
+                                "id": "40000",
+                                "src": "/images/Layout/Demon_05.avif",
+                                "alt": "The Boy and the Demon Layout",
+                                "video": false
+                            },
+                            {
+                                "id": "40000",
+                                "src": "/images/Layout/Demon_06.avif",
+                                "alt": "The Boy and the Demon Layout",
+                                "video": false
+                            },
+                            {
+                                "id": "40000",
+                                "src": "/images/Layout/Demon_07.avif",
+                                "alt": "The Boy and the Demon Layout",
                                 "video": false
                             }
                         ]
                 },
                 {
                     "id": "401",
-                    "Name": "La llorona",
-                    "Situation": "Brunch Studio Halloween Short film 2024",
+                    "Name": "Gozzoviglia",
+                    "Situation": "FX Exercice 2024",
                     "contents": 
                         [
                             {
                                 "id": "40100",
-                                "src": "/images/Layout/Llorona_00.avif",
-                                "title": "La llorona",
-                                "video": false
-                            },
-                            {
-                                "id": "40101",
-                                "src": "/images/Layout/Llorona_01.avif",
-                                "title": "La llorona",
-                                "video": false
-                            },
-                            {
-                                "id": "40102",
-                                "src": "/images/Layout/Llorona_02.avif",
-                                "title": "La llorona",
+                                "src": "/images/Layout/Gozzoviglia_00.avif",
+                                "alt": "Gozzoviglia",
                                 "video": false
                             }
                         ]
                 },
                 {
                     "id": "402",
-                    "Name": "Chipmunk",
-                    "Situation": "School project 2023",
-                    "contents":
+                    "Name": "La llorona",
+                    "Situation": "Brunch Studio Halloween Short film 2024",
+                    "contents": 
                         [
                             {
                                 "id": "40200",
-                                "src": "/images/Layout/Chipmunk_00.avif",
-                                "title": "Chipmunk",
+                                "src": "/images/Layout/Llorona_00.avif",
+                                "alt": "La llorona",
                                 "video": false
                             },
                             {
                                 "id": "40201",
-                                "src": "/images/Layout/Chipmunk_01.avif",
-                                "title": "Chipmunk",
+                                "src": "/images/Layout/Llorona_01.avif",
+                                "alt": "La llorona",
                                 "video": false
                             },
                             {
                                 "id": "40202",
-                                "src": "/images/Layout/Chipmunk_02.avif",
-                                "title": "Chipmunk",
-                                "video": false
-                            },
-                            {
-                                "id": "40203",
-                                "src": "/images/Layout/Chipmunk_03.avif",
-                                "title": "Chipmunk",
+                                "src": "/images/Layout/Llorona_02.avif",
+                                "alt": "La llorona",
                                 "video": false
                             }
                         ]
                 },
                 {
                     "id": "403",
+                    "Name": "Chipmunk",
+                    "Situation": "School project 2023",
+                    "contents":
+                        [
+                            {
+                                "id": "40300",
+                                "src": "/images/Layout/Chipmunk_00.avif",
+                                "alt": "Chipmunk",
+                                "video": false
+                            },
+                            {
+                                "id": "40301",
+                                "src": "/images/Layout/Chipmunk_01.avif",
+                                "alt": "Chipmunk",
+                                "video": false
+                            },
+                            {
+                                "id": "40302",
+                                "src": "/images/Layout/Chipmunk_02.avif",
+                                "alt": "Chipmunk",
+                                "video": false
+                            },
+                            {
+                                "id": "40303",
+                                "src": "/images/Layout/Chipmunk_03.avif",
+                                "alt": "Chipmunk",
+                                "video": false
+                            }
+                        ]
+                },
+                {
+                    "id": "404",
                     "Name": "Paricutín",
                     "Situation": "Narrative Camera Project 2022",
                     "contents":
                         [
                             {
-                                "id": "40300",
+                                "id": "40400",
                                 "src": "/images/Layout/Paricutin_00.avif",
-                                "title": "Paricutin",
+                                "alt": "Paricutin",
                                 "video": false
                             },
                             {
-                                "id": "40301",
+                                "id": "40401",
                                 "src": "/images/Layout/Paricutin_01.avif",
-                                "title": "Paricutin",
+                                "alt": "Paricutin",
                                 "video": false
                             },
                             {
-                                "id": "40302",
+                                "id": "40402",
                                 "src": "/images/Layout/Paricutin_02.avif",
-                                "title": "Paricutin",
+                                "alt": "Paricutin",
                                 "video": false
                             },
                             {
-                                "id": "40303",
+                                "id": "40403",
                                 "src": "/images/Layout/Paricutin_03.avif",
-                                "title": "Paricutin",
+                                "alt": "Paricutin",
                                 "video": false
                             }, 
                             {
-                                "id": "40304",
+                                "id": "40404",
                                 "src": "/images/Layout/Paricutin_04.avif",
-                                "title": "Paricutin",
+                                "alt": "Paricutin",
                                 "video": false
                             },
                             {
-                                "id": "40305",
+                                "id": "40405",
                                 "src": "/images/Layout/Paricutin_05.avif",
-                                "title": "Paricutin",
+                                "alt": "Paricutin",
                                 "video": false
                             },
                             {
-                                "id": "40306",
+                                "id": "40406",
                                 "src": "https://www.youtube.com/embed/Pn9pgLN_Xyw",
-                                "title": "Paricutin",
                                 "video": true
                             }                                                                                   
                         ]
@@ -500,7 +713,7 @@
                         {
                             "id": "50000",
                             "src": "/images/Sketchbook/Guacamayo_00.avif",
-                            "title": "Gran Guacamayo",
+                            "alt": "Gran Guacamayo",
                             "video": false
                         }
                     ]
