@@ -1,34 +1,31 @@
+/* GENERIC STYLES */
+
 #portfolio, #project {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin: 25px 10vw;
+  margin: 10px auto;
   justify-content: center;
 }
-
 .myLink {
   color: var(--charcoal);
   text-decoration: none;
 }
+
+/*GATEWAY (PORTFOLIO.JSX & GATE.JSX)*/ 
 .gateway {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;  
-}
-.gateway img {
-  width: 100%;
-  height: 100%;
-  aspect-ratio: 1.618 / 1;
-  object-fit: cover;
-  display: block;
 }
 .gate {
   position: relative;
   transition: transform 0.3s ease;
 }
 .gate img {
-  width: 100%;
+  width: 90%;
   height: 100%;
+  margin: 0 auto;
   aspect-ratio: 1.618 / 1;
   object-fit: cover;
   display: block;  
@@ -37,9 +34,8 @@
   transform: scale(1.2);
   z-index: 5;
 }
-.gate h4 {
+.gate h2 {
   position: absolute;
-  /*inset: 0;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,20 +51,23 @@
   inset: 0;
   background: var(--anthr);
 }
+
+/* GALLERY (PROJECTS, GALLERY, VIDET) */
 .gallery {
   display: flex;
   flex-direction:column;
   gap: 5rem;
   margin: 0 auto;
+  width: 100%;
 }
-.gallery h4 {
+.gallery h2 {
+  margin: 0 9px;
   text-align:center;
 }
-.kindOf {
+.kindOf { /* SPECIFICATIONS OF EACH PROJECT (TEXT) */
   text-align:center;
   margin: 0 0 10px 0;
-  font-size: 1.25rem;
-  /*font-weight: bold;*/
+  font-size: 0.9rem;
 }
 .gallery img {
   width: 100%;
@@ -99,15 +98,6 @@
 .titulin:hover {
   transform: scale(1.1);
 }
-.projectClass {
-    width: 400px; /* o el ancho que sea */
-    margin: 0 auto;
-    text-align: center;
-}
-.projectClass a {
-    color: inherit;
-    text-decoration: none;
-}
 iframe {
   width: 100%;
   transition: transform 0.3s ease;
@@ -115,6 +105,16 @@ iframe {
 iframe:hover {
   transform: scale(1.1);
 }
+.mosaic {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 0.75rem;
+}
+
+/* MODAL WINDOW*/ 
 .overlay {
   position: fixed;
   inset: 0;
@@ -159,14 +159,8 @@ iframe:hover {
 .closure img {
     z-index: 3000;
 }
-.mosaic {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 auto;
-  gap: 2.5rem;
-}
+
+/*ANIMATIONS (ON HOVER)*/
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -182,8 +176,27 @@ iframe:hover {
   }
 }
 
+
+/*MEDIA QUERIES*/ 
 @media (min-width: 768px) {
+  #portfolio, #project {
+    margin: 25px 4vw;
+  }
   .gateway {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .gallery h2 {
+    margin: 0;
+  }
+  .kindOf {
+    font-size: 1.25rem;
+  }
+  .mosaic {
+    width: 90%;
+    gap: 2.5rem;
+
+  }
+  .gate img {
+    width: 100%;
   }
 }

@@ -1,8 +1,7 @@
-function Gallery( { src, alt, classname, onClick, caption } ) {
+function Gallery( { src, alt, classname, loading, fetchpriority, onClick } ) {
   return (
     <figure>
-      <img src= { src } alt={ alt } className={classname} onClick = {onClick}></img>
-      {caption&&<figcaption>{caption}</figcaption>}
+      <img src= { src } alt={ alt } className={classname} loading={loading} fetchpriority={fetchpriority} onClick = {onClick}></img>
     </figure>
   )
 }

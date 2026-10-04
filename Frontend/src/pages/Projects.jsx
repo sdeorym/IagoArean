@@ -18,15 +18,18 @@ function Projects(  ) {
   return (
     <section id="project">
       <div className="gallery">
-        {proyecto.projects?.map((i) =>
+        {proyecto.projects?.map((i, iIdx) =>
           <div key={i.id}>
-          <h3>{i.Name}</h3>
+          <h2>{i.Name}</h2>
           <p className="kindOf">{i.Situation}</p>
             <div className="mosaic">          
-              {i.contents.map((j) =>
+              {i.contents.map((j, jIdx) =>
                 (j.video != true) ? (
                   <div key={j.id}>
-                    <Gallery src={j.src} alt={j.alt} classname={j.className} onClick={() => setIsSelected(j)} />
+                    <Gallery src={j.src} alt={j.alt} classname={j.className} 
+                    loading={iIdx === 0 && jIdx < 2 ? "eager" : "lazy"}
+                    fetchPriority={iIdx === 0 && jIdx === 0 ? "high" : "auto"}
+                    onClick={() => setIsSelected(j)} />
                     <span dangerouslySetInnerHTML={{ __html: j.text }} />
                   </div>
                 ) : (

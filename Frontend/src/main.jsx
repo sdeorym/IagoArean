@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import '@styles/index.css';
 import { DataProvider } from "./context/DataContext"
-
+import '@fontsource-variable/inter'
 import App from "@pages/App";
 import Home from "@pages/Home";
 import About from "@pages/About"; 

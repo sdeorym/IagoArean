@@ -46,7 +46,7 @@ function Contact() {
       <div className="diavoloForm">
         <img src={contact} alt="Iago Arean's self-portrait in Egon Schiele style."></img>
         <form className="contactForm">
-          <h3>CONTACT</h3>
+          <h2>CONTACT</h2>
           <div className="textbox">
             <label htmlFor="username">Name</label>
             <input placeholder="Your name here" type="text" id="username" name="username" autoComplete="name" onBlur={handleChange} required />
