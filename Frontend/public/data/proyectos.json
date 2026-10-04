@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "title": "",
+        "title": "The Boy and the Demon",
         "slug": "boyanddemon",
         "image": "/images/Poster/BoyDemonCover.avif",
         "alt": "Poster from The Boy and the Demon animation picture",
@@ -26,6 +26,12 @@
                                 "src": "/images/Demon/Demon_01.avif",
                                 "alt": "The boy and the Demon poster",
                                 "video": false
+                            },
+                            {
+                                "id": "00002",
+                                "src": "/images/Demon/Poster.avif",
+                                "alt": "The boy and the Demon poster",
+                                "video": false
                             }
                         ]
                 },
@@ -37,61 +43,61 @@
                         [
                             {
                                 "id": "00100",
-                                "src": "/images/Demon/Demon_02.avif",
-                                "alt": "Character explorations",
-                                "video": false
-                            },
-                            {
-                                "id": "00101",
                                 "src": "/images/Demon/Demon_03.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             },
                             {
-                                "id": "00102",
+                                "id": "00101",
                                 "src": "/images/Demon/Demon_04.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             },
                             {
-                                "id": "00103",
+                                "id": "00102",
                                 "src": "/images/Demon/Demon_05.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             },
                             {
-                                "id": "00104",
+                                "id": "00103",
                                 "src": "/images/Demon/Demon_06.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             },
-                                                        {
-                                "id": "00105",
+                            {
+                                "id": "00104",
                                 "src": "/images/Demon/Demon_07.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             },
                                                         {
-                                "id": "00106",
+                                "id": "00105",
                                 "src": "/images/Demon/Demon_08.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             },
                                                         {
-                                "id": "00107",
+                                "id": "00106",
                                 "src": "/images/Demon/Demon_09.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             },
                                                         {
-                                "id": "00108",
+                                "id": "00107",
                                 "src": "/images/Demon/Demon_10.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             },
                                                         {
-                                "id": "00109",
+                                "id": "00108",
                                 "src": "/images/Demon/Demon_11.avif",
+                                "alt": "Character explorations",
+                                "video": false
+                            },
+                                                        {
+                                "id": "00109",
+                                "src": "/images/Demon/Demon_12.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             }
@@ -105,19 +111,19 @@
                         [
                             {
                                 "id": "00200",
-                                "src": "/images/Demon/Demon_12.avif",
-                                "alt": "Props",
-                                "video": false
-                            },
-                            {
-                                "id": "00201",
                                 "src": "/images/Demon/Demon_13.avif",
                                 "alt": "Props",
                                 "video": false
                             },
                             {
-                                "id": "00202",
+                                "id": "00201",
                                 "src": "/images/Demon/Demon_14.avif",
+                                "alt": "Props",
+                                "video": false
+                            },
+                            {
+                                "id": "00202",
+                                "src": "/images/Demon/Demon_15.avif",
                                 "alt": "Props",
                                 "video": false
                             }
@@ -131,13 +137,13 @@
                         [
                             {
                                 "id": "00300",
-                                "src": "/images/Demon/Demon_15.avif",
+                                "src": "/images/Demon/Demon_16.avif",
                                 "alt": "Layouts",
                                 "video": false
                             },
                             {
                                 "id": "00301",
-                                "src": "/images/Demon/Demon_16.avif",
+                                "src": "/images/Demon/Demon_17.avif",
                                 "alt": "Layouts",
                                 "video": false
                             }

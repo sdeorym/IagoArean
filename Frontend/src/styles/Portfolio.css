@@ -16,14 +16,16 @@
 .gateway {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;  
+  gap: 1rem;
+  width: 90%;
+  margin: 0 auto;  
 }
 .gate {
   position: relative;
   transition: transform 0.3s ease;
 }
 .gate img {
-  width: 90%;
+  width: 100%;
   height: 100%;
   margin: 0 auto;
   aspect-ratio: 1.618 / 1;
@@ -107,11 +109,15 @@ iframe:hover {
 }
 .mosaic {
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
   gap: 0.75rem;
+}
+figcaption {
+  margin-top: 5rem;
 }
 
 /* MODAL WINDOW*/ 
@@ -184,6 +190,7 @@ iframe:hover {
   }
   .gateway {
     grid-template-columns: repeat(3, 1fr);
+    width: 100%;
   }
   .gallery h2 {
     margin: 0;

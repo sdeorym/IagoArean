@@ -29,6 +29,15 @@ nav {
   margin: 0;
   padding-top: 0;
 }
+.navLink {
+  color: inherit;
+  text-decoration: none;
+}
+.activePage {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 footer {
   display: flex;
   flex-direction: row;
@@ -38,17 +47,6 @@ footer {
   margin: 0;
   gap: 2.5vw;
   height: auto;
-  /*font-size: 0.75rem;
-  text-align: left;*/
-}
-
-.navLink {
-  color: inherit;
-  text-decoration: none;
-}
-.activePage {
-  font-weight: 900;
-  text-transform: uppercase;
 }
 .networkLinks {
   display: flex;
@@ -98,11 +96,12 @@ footer {
     padding-top: 1.5vh;
   }
   footer {
-    flex-direction: row;
-    justify-content: center;
-    /*gap: 100px;*/
     height: 50px;
     margin: 0 25px;
+  }
+  footer > span:last-child {
+    position: absolute;
+    right: 15px;
   }
 }
 
@@ -111,4 +110,6 @@ footer {
   .pageIndex {
     gap: 5vw;
   }
+
+
 }
