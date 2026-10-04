@@ -81,6 +81,10 @@
   /*border: 5px solid var(--charcoal);*/
   transition: transform 0.3s ease;
 }
+.gallery img.titulin {
+  aspect-ratio: auto;
+  object-fit: contain;
+}
 .gallery img:hover {
     transform: scale(1.1);
 }
@@ -88,7 +92,7 @@
   aspect-ratio: 16 / 9;
 }
 .titulin {
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   transition: transform 0.3s ease;
 }
