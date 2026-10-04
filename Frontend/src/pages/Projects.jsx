@@ -29,8 +29,8 @@ function Projects(  ) {
                     <Gallery src={j.src} alt={j.alt} classname={j.className} 
                     loading={iIdx === 0 && jIdx < 2 ? "eager" : "lazy"}
                     fetchPriority={iIdx === 0 && jIdx === 0 ? "high" : "auto"}
-                    onClick={() => setIsSelected(j)} />
-                    <span dangerouslySetInnerHTML={{ __html: j.text }} />
+                    onClick={() => setIsSelected(j)} 
+                    caption={j.caption} />
                   </div>
                 ) : (
                   <Videt key={j.id} src={j.src} />
