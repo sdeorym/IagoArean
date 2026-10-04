@@ -4,19 +4,17 @@ function Navbar() {
     const location = useLocation();
     const isHome = location.pathname === "/";
     const isAbout = location.pathname === "/about";
-    const isPort = location.pathname === "/portfolio/";
+    const isPort = location.pathname.startsWith("/portfolio/");
     const isContact = location.pathname === "/contact";
 
     return (
         <nav>
             <span className="pageTitle">
-                <h1>Iago Arean</h1>
-                <h2>Portfolio animation</h2>
+                <NavLink to="/" className="tit"><h1>Iago Arean</h1></NavLink>
             </span>
             <span className="pageIndex">
-                <NavLink to="/" className={isHome ? "navLink activePage" : "navLink"}>Accueil</NavLink>
-                <NavLink to="/about" className={isAbout ? "navLink activePage" : "navLink"}>À propos</NavLink>
                 <NavLink to="/portfolio/" className={isPort ? "navLink activePage" : "navLink"}>Portfolio</NavLink>
+                <NavLink to="/about" className={isAbout ? "navLink activePage" : "navLink"}>About</NavLink>
                 <NavLink to="/contact" className={isContact ? "navLink activePage" : "navLink"}>Contact</NavLink>
             </span>
         </nav>

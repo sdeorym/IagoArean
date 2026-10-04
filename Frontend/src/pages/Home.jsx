@@ -1,11 +1,15 @@
-import Hero from '@assets/hero.jpg'
+import HeroL from '@assets/hero.avif'
+import HeroMS from '@assets/hero-m-s.avif'
 import '@styles/Hero.css';
 
 function Home() {
 
   return (
     <section id="hero">
-        <img src={Hero} alt="Puerto de Ragusa" className="heroPhoto"></img>
+      <picture>
+        <source media="(max-width: 1024px)" srcSet={HeroMS} />
+        <img src={HeroL} alt="Fugue" className="heroPhoto" />
+      </picture>
     </section>
   )
 }

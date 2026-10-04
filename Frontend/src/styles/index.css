@@ -1,16 +1,17 @@
 *, *::before, *::after {
   box-sizing: border-box;
-  /*max-width: 1440px;*/
 }
 :root {
-  --board: #eeeeee;
-  --charcoal: #333333; 
-  --sans: 'Inter', Roboto, sans-serif;
-  --heading: 'Fraunces', Georgia, serif;
+  --board: #ffffff;
+  --charcoal: #333333;
+  --coal: rgba(21, 21, 21, 0.75);
+  --anthr: rgba(21, 21, 21, 0.5);
+  --sans: 'Inter Variable', Roboto, sans-serif;
 }
 #root {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
+  height: 100dvh; /* si el navegador lo soporta, evita el salto de la barra en móvil */
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -22,23 +23,47 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
+.tit {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* BASE = MÓVIL */
 h1 {
-  font-family: var(--heading);
-  font-size: clamp(1.25rem, 1.5vw + 1rem, 2rem);
+  font-family: var(--sans);
+  color: var(--charcoal);
+  font-size: 1.25rem;
   line-height: 1.2;
 }
 h2 {
-  font-family: var(--heading);
-  font-size: clamp(1rem, 1.25vw + .75rem, 1.5rem);
+  font-family: var(--sans);
+  font-size: 1rem;
   line-height: 1.2;
+  text-align: center;
 }
+
 h3 {
   font-family: var(--sans);
-  font-size: clamp(1rem, 1.25vw + .75rem, 1.5rem);
+  font-size: 1rem;
   line-height: 1.2;
+  text-align: center;
 }
 h4 {
   font-family: var(--sans);
-  font-size: clamp(.9rem, 1.1vw + .5rem, 1.25rem);
-  line-height: 1;
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+  h1 { font-size: 1.5rem; }
+  h2, h3 { font-size: 1.25rem; }
+  h4 { font-size: 1rem; }
+}
+
+/* desktop */
+@media (min-width: 1025px) {
+  h1 { font-size: 2rem; }
+  h2, h3 { font-size: 1.5rem; }
+  h4 { font-size: 1.25rem; }
 }

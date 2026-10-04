@@ -1,19 +1,209 @@
-#portfolio {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin: 25px 10vw;
+/* GENERIC STYLES */
+
+#portfolio, #project {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 10px auto;
+  justify-content: center;
 }
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem;
+.myLink {
+  color: var(--charcoal);
+  text-decoration: none;
 }
 
+/*GATEWAY (PORTFOLIO.JSX & GATE.JSX)*/ 
+.gateway {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  width: 90%;
+  margin: 0 auto;  
+}
+.gate {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+.gate img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  aspect-ratio: 1.618 / 1;
+  object-fit: cover;
+  display: block;  
+}
+.gate:hover {
+  transform: scale(1.2);
+  z-index: 5;
+}
+.gate h2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--board);
+  bottom: 15px;
+  left: 15px;
+  margin: 0;
+  z-index: 1;
+}
+.gate::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--anthr);
+}
+
+/* GALLERY (PROJECTS, GALLERY, VIDET) */
+.gallery {
+  display: flex;
+  flex-direction:column;
+  gap: 5rem;
+  margin: 0 auto;
+  width: 100%;
+}
+.gallery h2 {
+  margin: 0 9px;
+  text-align:center;
+}
+.kindOf { /* SPECIFICATIONS OF EACH PROJECT (TEXT) */
+  text-align:center;
+  margin: 0 0 10px 0;
+  font-size: 0.9rem;
+}
 .gallery img {
-    width: 50%;
-    aspect-ratio: 1 / 1; /* fuerza cuadrado, cambia a 4/3 o 16/9 si prefieres */
-    object-fit: cover;
-    display: block;
-    border: 5px solid var(--charcoal);
+  width: 100%;
+  height: auto;
+  max-height: 100vh; /* */
+  aspect-ratio: 16 / 9; /* fuerza cuadrado, cambia a 4/3 o 16/9 si prefieres */
+  object-fit: cover;
+  display: block;
+  justify-content: center;
+  /*border: 5px solid var(--charcoal);*/
+  transition: transform 0.3s ease;
+}
+.gallery img.titulin {
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+.gallery img:hover {
+    transform: scale(1.1);
+}
+.gallery iframe {
+  aspect-ratio: 16 / 9;
+}
+.titulin {
+  width: 100%;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+.titulin:hover {
+  transform: scale(1.1);
+}
+iframe {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+iframe:hover {
+  transform: scale(1.1);
+}
+.mosaic {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 0.75rem;
+}
+figcaption {
+  margin-top: 5rem;
+}
+
+/* MODAL WINDOW*/ 
+.overlay {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background: var(--coal);
+  z-index: 1000;
+  animation: fadeIn 0.2s ease;
+}
+.modal {
+  position: fixed; 
+  width: 80vw;
+  max-height: 80%;  
+  color: var(--charcoal);
+  margin: 25px auto;
+  border-radius: 20px;  
+  box-sizing: border-box;
+  z-index: 2000;
+  inset: 0;
+  animation: scaleIn 0.35s ease;
+}
+.modal img {
+  max-width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
+}
+.caja {
+  width: 90%;
+  margin: 0 auto;
+}
+.closure {
+  height: 40px;
+  width: 40px;
+  border: none;
+  background: transparent;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+  z-index: 2000;
+}
+.closure img {
+    z-index: 3000;
+}
+
+/*ANIMATIONS (ON HOVER)*/
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+/*MEDIA QUERIES*/ 
+@media (min-width: 768px) {
+  #portfolio, #project {
+    margin: 25px 4vw;
+  }
+  .gateway {
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  }
+  .gallery h2 {
+    margin: 0;
+  }
+  .kindOf {
+    font-size: 1.25rem;
+  }
+  .mosaic {
+    width: 90%;
+    gap: 2.5rem;
+
+  }
+  .gate img {
+    width: 100%;
+  }
 }

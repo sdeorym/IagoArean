@@ -1,6 +1,5 @@
 #hero {
-    height: 100vh - 150px;
-
+    height: 100%;
 }
 .heroPhoto {
     display: block;
@@ -8,4 +7,5 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    object-position: 30% center;
 }

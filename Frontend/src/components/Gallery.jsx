@@ -1,10 +1,9 @@
-function Gallery({ images }) {
+function Gallery( { src, alt, classname, loading, fetchpriority, caption,onClick } ) {
   return (
-    <div className="gallery">
-      {images.map((img) => (
-        <img key={img.id} src={img.src} alt={img.alt} />
-      ))}
-    </div>
+    <figure>
+      <img src= { src } alt={ alt } className={classname} loading={loading} fetchpriority={fetchpriority} onClick = {onClick}></img>
+      {caption && <figcaption dangerouslySetInnerHTML={{ __html: caption }} />}
+    </figure>
   )
 }
 
