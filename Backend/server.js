@@ -24,18 +24,13 @@ app.use('/assets', express.static(path.join(__dirname, 'dist/assets'), {
         }
     }
 }));
-
-app.get('/data/', (req, res) => {
-    const projfile = path.join(__dirname, '/data/proyectos.json');
-    const content = fs.readFileSync(projfile, 'utf-8');
-    const data = JSON.parse(content);
-    res.status(200).json(data);
-});
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
-app.use(express.static(path.join(__dirname, "public")));
+
+// app.use(express.static(path.join(__dirname, "public")));
 
 var access = fs.createWriteStream('./node.access.log', { flags: 'a' });
 //var error = fs.createWriteStream('./node.error.log', { flags: 'a' });
@@ -46,6 +41,13 @@ dotenv.config();
 
 app.get("/", async (req, res) => {
   res.sendFile(path.join(__dirname, 'dist', '/index.html'));
+});
+
+app.get('/data/', (req, res) => {
+    const projfile = path.join(__dirname, '/public/data/proyectos.json');
+    const content = fs.readFileSync(projfile, 'utf-8');
+    const data = JSON.parse(content);
+    res.status(200).json(data);
 });
 
 
