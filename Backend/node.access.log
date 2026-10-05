@@ -1,0 +1,131 @@
+◇ injected env (0) from .env
+◇ injected env (0) from .env
+Error: ENOENT: no such file or directory, open 'C:\Users\sdeor\Projects\IagoArean\backend\data\proyectos.json'
+    at Object.readFileSync (node:fs:442:20)
+    at file:///C:/Users/sdeor/Projects/IagoArean/backend/server.js:30:24
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sdeor\Projects\IagoArean\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\sdeor\Projects\IagoArean\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\sdeor\Projects\IagoArean\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\sdeor\Projects\IagoArean\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\sdeor\Projects\IagoArean\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\sdeor\Projects\IagoArean\backend\node_modules\router\index.js:291:5)
+◇ injected env (0) from .env
+Error: ENOENT: no such file or directory, open 'C:\Users\sdeor\Projects\IagoArean\BackEnd\data\proyectos.json'
+    at Object.readFileSync (node:fs:442:20)
+    at file:///C:/Users/sdeor/Projects/IagoArean/BackEnd/server.js:30:24
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\BackEnd\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sdeor\Projects\IagoArean\BackEnd\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\sdeor\Projects\IagoArean\BackEnd\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\sdeor\Projects\IagoArean\BackEnd\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\BackEnd\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\sdeor\Projects\IagoArean\BackEnd\node_modules\router\index.js:295:15
+    at processParams (C:\Users\sdeor\Projects\IagoArean\BackEnd\node_modules\router\index.js:582:12)
+    at next (C:\Users\sdeor\Projects\IagoArean\BackEnd\node_modules\router\index.js:291:5)
+◇ injected env (0) from .env
+Error: ENOENT: no such file or directory, open 'C:\Users\sdeor\Projects\IagoArean\BackEnd\data\proyectos.json'
+    at Object.readFileSync (node:fs:442:20)
+    at file:///C:/Users/sdeor/Projects/IagoArean/BackEnd/server.js:30:24
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\BackEnd\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sdeor\Projects\IagoArean\BackEnd\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\sdeor\Projects\IagoArean\BackEnd\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\sdeor\Projects\IagoArean\BackEnd\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\BackEnd\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\sdeor\Projects\IagoArean\BackEnd\node_modules\router\index.js:295:15
+    at processParams (C:\Users\sdeor\Projects\IagoArean\BackEnd\node_modules\router\index.js:582:12)
+    at next (C:\Users\sdeor\Projects\IagoArean\BackEnd\node_modules\router\index.js:291:5)
+◇ injected env (0) from .env
+Error: ENOENT: no such file or directory, stat 'C:\Users\sdeor\Projects\IagoArean\Backend\dist\index.html'
+Error: ENOENT: no such file or directory, stat 'C:\Users\sdeor\Projects\IagoArean\Backend\dist\index.html'
+◇ injected env (0) from .env
+Error: ENOENT: no such file or directory, open 'C:\Users\sdeor\Projects\IagoArean\Backend\data\proyectos.json'
+    at Object.readFileSync (node:fs:442:20)
+    at file:///C:/Users/sdeor/Projects/IagoArean/Backend/server.js:30:24
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:291:5)
+Error: ENOENT: no such file or directory, open 'C:\Users\sdeor\Projects\IagoArean\Backend\data\proyectos.json'
+    at Object.readFileSync (node:fs:442:20)
+    at file:///C:/Users/sdeor/Projects/IagoArean/Backend/server.js:30:24
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:291:5)
+Error: ENOENT: no such file or directory, open 'C:\Users\sdeor\Projects\IagoArean\Backend\data\proyectos.json'
+    at Object.readFileSync (node:fs:442:20)
+    at file:///C:/Users/sdeor/Projects/IagoArean/Backend/server.js:30:24
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:291:5)
+◇ injected env (0) from .env
+exito leyendo C:\Users\sdeor\Projects\IagoArean\Backend\public\data\proyectos.json
+TypeError: JSON is not a function
+    at file:///C:/Users/sdeor/Projects/IagoArean/Backend/server.js:33:22
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:186:3)
+◇ injected env (0) from .env
+te estoy llamando inútil
+exito leyendo C:\Users\sdeor\Projects\IagoArean\Backend\public\data\proyectos.json
+TypeError: JSON is not a function
+    at file:///C:/Users/sdeor/Projects/IagoArean/Backend/server.js:34:22
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:186:3)
+◇ injected env (0) from .env
+te estoy llamando inútil
+exito leyendo C:\Users\sdeor\Projects\IagoArean\Backend\public\data\proyectos.json
+TypeError: JSON is not a function
+    at file:///C:/Users/sdeor/Projects/IagoArean/Backend/server.js:34:22
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:186:3)
+te estoy llamando inútil
+exito leyendo C:\Users\sdeor\Projects\IagoArean\Backend\public\data\proyectos.json
+TypeError: JSON is not a function
+    at file:///C:/Users/sdeor/Projects/IagoArean/Backend/server.js:34:22
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\sdeor\Projects\IagoArean\Backend\node_modules\router\index.js:186:3)
+◇ injected env (0) from .env
+te estoy llamando inútil
+exito leyendo C:\Users\sdeor\Projects\IagoArean\Backend\public\data\proyectos.json

@@ -1,7 +1,7 @@
-const http = require('http');
-const path = require('path');
-const fs = require('fs');
-const url = require('url');
+
+import path from "path";
+import fs from "fs";
+import url from "url";
 import cors from "cors";
 import dotenv from "dotenv";
 import { Resend } from 'resend';
@@ -25,11 +25,11 @@ app.use('/assets', express.static(path.join(__dirname, 'dist/assets'), {
     }
 }));
 
-app.get('/', (req, res) => {
-    const projfile = path.join(__dirname, 'data/proyectos.json');
+app.get('/data/', (req, res) => {
+    const projfile = path.join(__dirname, '/public/data/proyectos.json');
     const content = fs.readFileSync(projfile, 'utf-8');
     const data = JSON.parse(content);
-    res.status(200), JSON(data);
+    res.status(200).json(data);
 });
 
 app.use(cors())

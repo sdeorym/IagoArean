@@ -3,7 +3,7 @@
         "id": 0,
         "title": "The Boy and the Demon",
         "slug": "boyanddemon",
-        "image": "/images/Poster/BoyDemonCover.avif",
+        "image": "/public/images/Poster/BoyDemonCover.avif",
         "alt": "Poster from The Boy and the Demon animation picture",
         "projects": 
             [
@@ -15,7 +15,7 @@
                         [
                             {
                                 "id": "00000",
-                                "src": "/images/Demon/Demon_00.avif",
+                                "src": "/public/images/Demon/Demon_00.avif",
                                 "alt": "The boy and the Demon title",
                                 "className": "titulin",
                                 "caption": "<span><h2>Gobelins Paris Graduation Film 2026<br />Writing / Directing / Storyboard / Animation</h2></span>",
@@ -23,13 +23,13 @@
                             },
                             {
                                 "id": "00001",
-                                "src": "/images/Demon/Demon_01.avif",
+                                "src": "/public/images/Demon/Demon_01.avif",
                                 "alt": "The boy and the Demon poster",
                                 "video": false
                             },
                             {
                                 "id": "00002",
-                                "src": "/images/Demon/Poster.avif",
+                                "src": "/public/images/Demon/Poster.avif",
                                 "alt": "The boy and the Demon poster",
                                 "video": false
                             }
@@ -43,61 +43,61 @@
                         [
                             {
                                 "id": "00100",
-                                "src": "/images/Demon/Demon_03.avif",
+                                "src": "/public/images/Demon/Demon_03.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             },
                             {
                                 "id": "00101",
-                                "src": "/images/Demon/Demon_04.avif",
+                                "src": "/public/images/Demon/Demon_04.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             },
                             {
                                 "id": "00102",
-                                "src": "/images/Demon/Demon_05.avif",
+                                "src": "/public/images/Demon/Demon_05.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             },
                             {
                                 "id": "00103",
-                                "src": "/images/Demon/Demon_06.avif",
+                                "src": "/public/images/Demon/Demon_06.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             },
                             {
                                 "id": "00104",
-                                "src": "/images/Demon/Demon_07.avif",
+                                "src": "/public/images/Demon/Demon_07.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             },
                                                         {
                                 "id": "00105",
-                                "src": "/images/Demon/Demon_08.avif",
+                                "src": "/public/images/Demon/Demon_08.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             },
                                                         {
                                 "id": "00106",
-                                "src": "/images/Demon/Demon_09.avif",
+                                "src": "/public/images/Demon/Demon_09.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             },
                                                         {
                                 "id": "00107",
-                                "src": "/images/Demon/Demon_10.avif",
+                                "src": "/public/images/Demon/Demon_10.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             },
                                                         {
                                 "id": "00108",
-                                "src": "/images/Demon/Demon_11.avif",
+                                "src": "/public/images/Demon/Demon_11.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             },
                                                         {
                                 "id": "00109",
-                                "src": "/images/Demon/Demon_12.avif",
+                                "src": "/public/images/Demon/Demon_12.avif",
                                 "alt": "Character explorations",
                                 "video": false
                             }
@@ -111,19 +111,19 @@
                         [
                             {
                                 "id": "00200",
-                                "src": "/images/Demon/Demon_13.avif",
+                                "src": "/public/images/Demon/Demon_13.avif",
                                 "alt": "Props",
                                 "video": false
                             },
                             {
                                 "id": "00201",
-                                "src": "/images/Demon/Demon_14.avif",
+                                "src": "/public/images/Demon/Demon_14.avif",
                                 "alt": "Props",
                                 "video": false
                             },
                             {
                                 "id": "00202",
-                                "src": "/images/Demon/Demon_15.avif",
+                                "src": "/public/images/Demon/Demon_15.avif",
                                 "alt": "Props",
                                 "video": false
                             }
@@ -137,13 +137,13 @@
                         [
                             {
                                 "id": "00300",
-                                "src": "/images/Demon/Demon_16.avif",
+                                "src": "/public/images/Demon/Demon_16.avif",
                                 "alt": "Layouts",
                                 "video": false
                             },
                             {
                                 "id": "00301",
-                                "src": "/images/Demon/Demon_17.avif",
+                                "src": "/public/images/Demon/Demon_17.avif",
                                 "alt": "Layouts",
                                 "video": false
                             }
@@ -156,7 +156,7 @@
         "id": 1,
         "title": "Storyboard",
         "slug": "storyboard",
-        "image": "/images/Poster/StoryboardCover.avif",
+        "image": "/public/images/Poster/StoryboardCover.avif",
         "alt": "Storyboard from 'A sweet tale'",
         "projects":
             [
@@ -181,43 +181,43 @@
                         [
                                                         {
                                 "id": "10100",
-                                "src": "/images/Storyboard/Demon_00.webp",
+                                "src": "/public/images/Storyboard/Demon_00.webp",
                                 "alt": "The boy and the Demon storyboard",
                                 "video": false
                             },
                             {
                                 "id": "10101",
-                                "src": "/images/Storyboard/Demon_01.webp",
+                                "src": "/public/images/Storyboard/Demon_01.webp",
                                 "alt": "The boy and the Demon storyboard",
                                 "video": false
                             },
                                                         {
                                 "id": "10102",
-                                "src": "/images/Storyboard/Demon_02.webp",
+                                "src": "/public/images/Storyboard/Demon_02.webp",
                                 "alt": "The boy and the Demon storyboard",
                                 "video": false
                             },
                             {
                                 "id": "10103",
-                                "src": "/images/Storyboard/Demon_03.webp",
+                                "src": "/public/images/Storyboard/Demon_03.webp",
                                 "alt": "The boy and the Demon storyboard",
                                 "video": false
                             },
                             {
                                 "id": "10104",
-                                "src": "/images/Storyboard/Demon_04.webp",
+                                "src": "/public/images/Storyboard/Demon_04.webp",
                                 "alt": "The boy and the Demon storyboard",
                                 "video": false
                             },
                                                         {
                                 "id": "10105",
-                                "src": "/images/Storyboard/Demon_05.webp",
+                                "src": "/public/images/Storyboard/Demon_05.webp",
                                 "alt": "The boy and the Demon storyboard",
                                 "video": false
                             },
                             {
                                 "id": "10106",
-                                "src": "/images/Storyboard/Demon_06.webp",
+                                "src": "/public/images/Storyboard/Demon_06.webp",
                                 "alt": "The boy and the Demon storyboard",
                                 "video": false
                             }                            
@@ -231,28 +231,28 @@
                         [
                             {
                                 "id": "10200",
-                                "src": "/images/Storyboard/Memoires_00.webp",
+                                "src": "/public/images/Storyboard/Memoires_00.webp",
                                 "alt": "Mémoires des cendres cover",
                                 "video": false
                             
                             },
                             {
                                 "id": "10201",
-                                "src": "/images/Storyboard/Memoires_01.webp",
+                                "src": "/public/images/Storyboard/Memoires_01.webp",
                                 "alt": "Mémoires des cendres storyboard",
                                 "video": false
                             
                             },
                             {
                                 "id": "10202",
-                                "src": "/images/Storyboard/Memoires_02.webp",
+                                "src": "/public/images/Storyboard/Memoires_02.webp",
                                 "alt": "Mémoires des cendres storyboard",
                                 "video": false
                             
                             },
                             {
                                 "id": "10203",
-                                "src": "/images/Storyboard/Memoires_03.webp",
+                                "src": "/public/images/Storyboard/Memoires_03.webp",
                                 "alt": "Mémoires des cendres storyboard",
                                 "video": false                    
                             }
@@ -271,19 +271,19 @@
                             },
                             {
                                 "id": "20301",
-                                "src": "/images/Storyboard/Zaza_00.avif",
+                                "src": "/public/images/Storyboard/Zaza_00.avif",
                                 "alt": "Bouba & Zaza storyboard",
                                 "video": false
                             },
                             {
                                 "id": "20302",
-                                "src": "/images/Storyboard/Zaza_01.avif",
+                                "src": "/public/images/Storyboard/Zaza_01.avif",
                                 "alt": "Bouba & Zaza storyboard",
                                 "video": false
                             },
                             {
                                 "id": "20303",
-                                "src": "/images/Storyboard/Zaza_02.avif",
+                                "src": "/public/images/Storyboard/Zaza_02.avif",
                                 "alt": "Bouba & Zaza storyboard",
                                 "video": false
                             }
@@ -297,25 +297,25 @@
                         [
                             {
                                 "id": "10400",
-                                "src": "/images/Storyboard/Sweet_00.webp",
+                                "src": "/public/images/Storyboard/Sweet_00.webp",
                                 "alt": "A Sweet Tale Thumbnails & Storyboards",
                                 "video": false
                             },
                             {
                                 "id": "10401",
-                                "src": "/images/Storyboard/Sweet_01.webp",
+                                "src": "/public/images/Storyboard/Sweet_01.webp",
                                 "alt": "A Sweet Tale Thumbnails & Storyboards",
                                 "video": false
                             },
                             {
                                 "id": "10402",
-                                "src": "/images/Storyboard/Sweet_02.webp",
+                                "src": "/public/images/Storyboard/Sweet_02.webp",
                                 "alt": "A Sweet Tale Thumbnails & Storyboards",
                                 "video": false
                             },
                             {
                                 "id": "10403",
-                                "src": "/images/Storyboard/Sweet_03.webp",
+                                "src": "/public/images/Storyboard/Sweet_03.webp",
                                 "alt": "A Sweet Tale Thumbnails & Storyboards",
                                 "video": false
                             }
@@ -327,7 +327,7 @@
         "id": 2,
         "title": "Character Design",
         "slug": "characterdesign",
-        "image": "/images/Poster/CharacterDesignCover.avif",
+        "image": "/public/images/Poster/CharacterDesignCover.avif",
         "alt": "Character Design of the demon from 'The Boy and the Demon'",
         "projects":
             [
@@ -339,61 +339,61 @@
                         [
                             {
                                 "id": "20000",
-                                "src": "/images/Character/Demon_00.avif",
+                                "src": "/public/images/Character/Demon_00.avif",
                                 "alt": "The Boy and the Demon",
                                 "video": false
                             },
                             {
                                 "id": "20001",
-                                "src": "/images/Character/Demon_01.avif",
+                                "src": "/public/images/Character/Demon_01.avif",
                                 "alt": "The Boy and the Demon",
                                 "video": false
                             },
                             {
                                 "id": "20002",
-                                "src": "/images/Character/Demon_02.avif",
+                                "src": "/public/images/Character/Demon_02.avif",
                                 "alt": "The Boy and the Demon",
                                 "video": false
                             },
                                                     {
                                 "id": "20003",
-                                "src": "/images/Character/Demon_03.avif",
+                                "src": "/public/images/Character/Demon_03.avif",
                                 "alt": "The Boy and the Demon",
                                 "video": false
                             },
                             {
                                 "id": "20004",
-                                "src": "/images/Character/Demon_04.avif",
+                                "src": "/public/images/Character/Demon_04.avif",
                                 "alt": "The Boy and the Demon",
                                 "video": false
                             },
                             {
                                 "id": "20005",
-                                "src": "/images/Character/Demon_05.avif",
+                                "src": "/public/images/Character/Demon_05.avif",
                                 "alt": "The Boy and the Demon",
                                 "video": false
                             },
                                                         {
                                 "id": "20006",
-                                "src": "/images/Character/Demon_06.avif",
+                                "src": "/public/images/Character/Demon_06.avif",
                                 "alt": "The Boy and the Demon",
                                 "video": false
                             },
                             {
                                 "id": "20007",
-                                "src": "/images/Character/Demon_07.avif",
+                                "src": "/public/images/Character/Demon_07.avif",
                                 "alt": "The Boy and the Demon",
                                 "video": false
                             },
                             {
                                 "id": "20008",
-                                "src": "/images/Character/Demon_08.avif",
+                                "src": "/public/images/Character/Demon_08.avif",
                                 "alt": "The Boy and the Demon",
                                 "video": false
                             },
                             {
                                 "id": "20009",
-                                "src": "/images/Character/Demon_09.avif",
+                                "src": "/public/images/Character/Demon_09.avif",
                                 "alt": "The Boy and the Demon",
                                 "video": false
                             }
@@ -407,13 +407,13 @@
                         [
                             {
                                 "id": "20100",
-                                "src": "/images/Character/Sweet_00.avif",
+                                "src": "/public/images/Character/Sweet_00.avif",
                                 "alt": "A Sweet Tale",
                                 "video": false
                             },
                             {
                                 "id": "20101",
-                                "src": "/images/Character/Sweet_01.avif",
+                                "src": "/public/images/Character/Sweet_01.avif",
                                 "alt": "A Sweet Tale",
                                 "video": false
                             }
@@ -427,25 +427,25 @@
                         [
                             {
                                 "id": "20200",
-                                "src": "/images/Character/Artist_00.avif",
+                                "src": "/public/images/Character/Artist_00.avif",
                                 "alt": "The Artist",
                                 "video": false
                             },
                             {
                                 "id": "20201",
-                                "src": "/images/Character/Artist_01.avif",
+                                "src": "/public/images/Character/Artist_01.avif",
                                 "alt": "The Artist",
                                 "video": false
                             },
                             {
                                 "id": "20202",
-                                "src": "/images/Character/Artist_02.avif",
+                                "src": "/public/images/Character/Artist_02.avif",
                                 "alt": "The Artist",
                                 "video": false
                             },
                             {
                                 "id": "20203",
-                                "src": "/images/Character/Artist_03.avif",
+                                "src": "/public/images/Character/Artist_03.avif",
                                 "alt": "The Artist",
                                 "video": false
                             }
@@ -459,19 +459,19 @@
                         [
                             {
                                 "id": "20300",
-                                "src": "/images/Character/Schiele_00.avif",
+                                "src": "/public/images/Character/Schiele_00.avif",
                                 "alt": "Schiele",
                                 "video": false
                             },
                             {
                                 "id": "20301",
-                                "src": "/images/Character/Schiele_01.avif",
+                                "src": "/public/images/Character/Schiele_01.avif",
                                 "alt": "Schiele",
                                 "video": false
                             },
                             {
                                 "id": "20302",
-                                "src": "/images/Character/Schiele_02.avif",
+                                "src": "/public/images/Character/Schiele_02.avif",
                                 "alt": "Schiele",
                                 "video": false
                             }
@@ -483,7 +483,7 @@
         "id": 3,
         "title": "2D Animation",
         "slug": "2danimation",
-        "image": "/images/Poster/2DAnimationCover.avif",
+        "image": "/public/images/Poster/2DAnimationCover.avif",
         "alt": "Still picture from 'A sweet tale'",
         "projects": 
             [
@@ -519,7 +519,7 @@
         "id": 4,
         "title": "Layout",
         "slug": "layout",
-        "image": "/images/Poster/LayoutCover.avif",
+        "image": "/public/images/Poster/LayoutCover.avif",
         "alt": "Gozzoviglia Layout image",
         "projects": 
             [
@@ -531,49 +531,49 @@
                         [
                             {
                                 "id": "40000",
-                                "src": "/images/Layout/Demon_00.avif",
+                                "src": "/public/images/Layout/Demon_00.avif",
                                 "alt": "The Boy and the Demon Layout",
                                 "video": false
                             },
                             {
                                 "id": "40000",
-                                "src": "/images/Layout/Demon_01.avif",
+                                "src": "/public/images/Layout/Demon_01.avif",
                                 "alt": "The Boy and the Demon Layout",
                                 "video": false
                             },
                             {
                                 "id": "40000",
-                                "src": "/images/Layout/Demon_02.avif",
+                                "src": "/public/images/Layout/Demon_02.avif",
                                 "alt": "The Boy and the Demon Layout",
                                 "video": false
                             },
                             {
                                 "id": "40000",
-                                "src": "/images/Layout/Demon_03.avif",
+                                "src": "/public/images/Layout/Demon_03.avif",
                                 "alt": "The Boy and the Demon Layout",
                                 "video": false
                             },
                             {
                                 "id": "40000",
-                                "src": "/images/Layout/Demon_04.avif",
+                                "src": "/public/images/Layout/Demon_04.avif",
                                 "alt": "The Boy and the Demon Layout",
                                 "video": false
                             },
                             {
                                 "id": "40000",
-                                "src": "/images/Layout/Demon_05.avif",
+                                "src": "/public/images/Layout/Demon_05.avif",
                                 "alt": "The Boy and the Demon Layout",
                                 "video": false
                             },
                             {
                                 "id": "40000",
-                                "src": "/images/Layout/Demon_06.avif",
+                                "src": "/public/images/Layout/Demon_06.avif",
                                 "alt": "The Boy and the Demon Layout",
                                 "video": false
                             },
                             {
                                 "id": "40000",
-                                "src": "/images/Layout/Demon_07.avif",
+                                "src": "/public/images/Layout/Demon_07.avif",
                                 "alt": "The Boy and the Demon Layout",
                                 "video": false
                             }
@@ -587,7 +587,7 @@
                         [
                             {
                                 "id": "40100",
-                                "src": "/images/Layout/Gozzoviglia_00.avif",
+                                "src": "/public/images/Layout/Gozzoviglia_00.avif",
                                 "alt": "Gozzoviglia",
                                 "video": false
                             }
@@ -601,19 +601,19 @@
                         [
                             {
                                 "id": "40200",
-                                "src": "/images/Layout/Llorona_00.avif",
+                                "src": "/public/images/Layout/Llorona_00.avif",
                                 "alt": "La llorona",
                                 "video": false
                             },
                             {
                                 "id": "40201",
-                                "src": "/images/Layout/Llorona_01.avif",
+                                "src": "/public/images/Layout/Llorona_01.avif",
                                 "alt": "La llorona",
                                 "video": false
                             },
                             {
                                 "id": "40202",
-                                "src": "/images/Layout/Llorona_02.avif",
+                                "src": "/public/images/Layout/Llorona_02.avif",
                                 "alt": "La llorona",
                                 "video": false
                             }
@@ -627,25 +627,25 @@
                         [
                             {
                                 "id": "40300",
-                                "src": "/images/Layout/Chipmunk_00.avif",
+                                "src": "/public/images/Layout/Chipmunk_00.avif",
                                 "alt": "Chipmunk",
                                 "video": false
                             },
                             {
                                 "id": "40301",
-                                "src": "/images/Layout/Chipmunk_01.avif",
+                                "src": "/public/images/Layout/Chipmunk_01.avif",
                                 "alt": "Chipmunk",
                                 "video": false
                             },
                             {
                                 "id": "40302",
-                                "src": "/images/Layout/Chipmunk_02.avif",
+                                "src": "/public/images/Layout/Chipmunk_02.avif",
                                 "alt": "Chipmunk",
                                 "video": false
                             },
                             {
                                 "id": "40303",
-                                "src": "/images/Layout/Chipmunk_03.avif",
+                                "src": "/public/images/Layout/Chipmunk_03.avif",
                                 "alt": "Chipmunk",
                                 "video": false
                             }
@@ -659,37 +659,37 @@
                         [
                             {
                                 "id": "40400",
-                                "src": "/images/Layout/Paricutin_00.avif",
+                                "src": "/public/images/Layout/Paricutin_00.avif",
                                 "alt": "Paricutin",
                                 "video": false
                             },
                             {
                                 "id": "40401",
-                                "src": "/images/Layout/Paricutin_01.avif",
+                                "src": "/public/images/Layout/Paricutin_01.avif",
                                 "alt": "Paricutin",
                                 "video": false
                             },
                             {
                                 "id": "40402",
-                                "src": "/images/Layout/Paricutin_02.avif",
+                                "src": "/public/images/Layout/Paricutin_02.avif",
                                 "alt": "Paricutin",
                                 "video": false
                             },
                             {
                                 "id": "40403",
-                                "src": "/images/Layout/Paricutin_03.avif",
+                                "src": "/public/images/Layout/Paricutin_03.avif",
                                 "alt": "Paricutin",
                                 "video": false
                             }, 
                             {
                                 "id": "40404",
-                                "src": "/images/Layout/Paricutin_04.avif",
+                                "src": "/public/images/Layout/Paricutin_04.avif",
                                 "alt": "Paricutin",
                                 "video": false
                             },
                             {
                                 "id": "40405",
-                                "src": "/images/Layout/Paricutin_05.avif",
+                                "src": "/public/images/Layout/Paricutin_05.avif",
                                 "alt": "Paricutin",
                                 "video": false
                             },
@@ -706,7 +706,7 @@
         "id": 5,
         "title": "Sketchbook",
         "slug": "sketchbook",
-        "image": "/images/Poster/SketchbookCover.avif",
+        "image": "/public/images/Poster/SketchbookCover.avif",
         "alt": "Image from concept of Popol Vuh",
         "projects":
             [
@@ -718,7 +718,7 @@
                     [
                         {
                             "id": "50000",
-                            "src": "/images/Sketchbook/Guacamayo_00.avif",
+                            "src": "/public/images/Sketchbook/Guacamayo_00.avif",
                             "alt": "Gran Guacamayo",
                             "video": false
                         }
