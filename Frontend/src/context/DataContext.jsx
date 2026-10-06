@@ -4,13 +4,9 @@ const DataContext = createContext({});
 
 export const api = {
   loadData: async () => {
-    const json = await fetch("/data/");
-    if (!response.ok) {
-              const text = await response.text();
-              throw new Error("ERROR. Please, try later.");
-          }
-    const result = await response.json();
-    return result;
+    const response = await fetch("/data/");
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return response.json();
   },
 };
 

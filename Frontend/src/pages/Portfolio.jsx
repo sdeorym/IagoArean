@@ -15,11 +15,12 @@ function Portfolio() {
       projects: proj.projects,
       contents: proj.contents,
     })) ?? [];
+    console.log("hola, estoy en portfolio y data es", data);
 
   return (
     <section id="portfolio">
       <div className="gateway">   
-        {projSum.map((i) =>
+        {projSum?.map((i) =>
           <div key={i.id}>
             <Link to={`${i.slug}`} className="myLink" >
               <Gate title={i.title} src={i.image} alt= {i.alt} />
