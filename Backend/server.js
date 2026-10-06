@@ -51,14 +51,16 @@ app.get('/data/', (req, res) => {
 });
 
 
-app.post("/contact", async (req, res) => {
+app.post("/sendmail/", async (req, res) => {
   const url= process.env.MAIL_URL;
   const API_key = process.env.RESEND_API_KEY;
-  // const basicAuth = btoa(pw);
 
+  console.log("Entrando en sendmail");
   const { username, email, message } = req.body;
 
   const resend = new Resend(API_key);
+
+  console.log("From: ", username, " Email: ", email, " Message: ", message);
 
   const { data, error } = await resend.emails.send({
     from: 'info@lpgconsulting.fr',
@@ -69,5 +71,13 @@ app.post("/contact", async (req, res) => {
   res.status(200).json({ success: true });
 });
   
+app.get("/", async (req, res) => {
+  res.sendFile(path.join(__dirname, 'dist', '/index.html'));
+});
+
+app.get("/{*splat}", async (req, res) => {
+  res.sendFile(path.join(__dirname, 'dist', '/index.html'));
+});
+
 
 app.listen(process.env.PORT || 3000, "0.0.0.0")

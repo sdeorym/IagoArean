@@ -33,6 +33,9 @@
     .whatatext {
         font-size: 1.15rem;
     }
+    .selfportrait {
+        max-width: 60%;
+    }
 }
 
 /* DESKTOP */

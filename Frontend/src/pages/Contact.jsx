@@ -2,9 +2,6 @@ import contact from '@assets/diavolo.avif'
 import '@styles/Contact.css';
 import Button from "@components/Button";
 import { useState } from "react";
-/*= {((formData.username!="") && (formData.email!="")) ? "submit enabled" : "submit disabled"}*/ "submit" 
-          /*disabled = {((formData.username=="") || (formData.email=="")) ? true : false}
-          data={formData}*/
 
 function Contact() {
   const [formData, setFormData] = useState({username: '', email: '', message: ''});
@@ -12,6 +9,7 @@ function Contact() {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value});
+    console.log(formData);
   };
 
   const handleSubmit = async (e) => {
@@ -19,16 +17,19 @@ function Contact() {
       const dataToSend = {username: formData.username, email: formData.email, message: formData.message};
       const stringifiedJsonData = JSON.stringify(dataToSend);
       try {
-          const response = await fetch("/contact", {
+          console.log("From: ", username, " Email: ", email, " Message: ", message);
+          const response = await fetch("/sendmail", {              
               method: 'POST',
               headers: {
                   'Content-Type': 'application/json'
               },
               body: stringifiedJsonData
           });
+          console.log("From: ", username, " Email: ", email, " Message: ", message);
           
           if (!response.ok) {
               const text = await response.text();
+              console.log("ERROR: ", response.status);
               throw new Error("ERROR. Please, try later.");
           }
           const result = await response.json();
@@ -37,7 +38,7 @@ function Contact() {
           e.target.reset();
       }
       catch(error) {
-          alert("ERROR. Please, try later.");
+          alert("ERROR. Service unavailable. Please, try later.");
       }
   }
 
@@ -45,7 +46,7 @@ function Contact() {
     <section id="contact">
       <div className="diavoloForm">
         <img src={contact} alt="Iago Arean's self-portrait in Egon Schiele style."></img>
-        <form className="contactForm">
+        <form className="contactForm" onSubmit={handleSubmit}>
           <h2>CONTACT</h2>
           <div className="textbox">
             <label htmlFor="username">Name</label>
