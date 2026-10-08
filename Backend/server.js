@@ -64,7 +64,7 @@ app.post("/sendmail/", async (req, res) => {
 
   const { data, error } = await resend.emails.send({
     from: 'info@lpgconsulting.fr',
-    to: ['sdeorym@gmail.com'],
+    to: ['iagoarean@outlook.com'],
     subject: '[Webpage contact]',
     text: 'From: ' + username + ' Email: ' + email + ' Message: ' + message
     });
