@@ -29,7 +29,7 @@
                             },
                             {
                                 "id": "00002",
-                                "src": "/images/Demon/Poster.avif",
+                                "src": "/images/Demon/Demon_02.avif",
                                 "alt": "The boy and the Demon poster",
                                 "video": false
                             }
@@ -225,64 +225,29 @@
                 },
                 {
                     "id": "102",
-                    "Name": "Mémoires des cendres",
-                    "Situation": "Digital Graphic Novel Project about the Spanish Civil War - Story Board and Final Illustrations - 2025",
-                    "contents":
-                        [
-                            {
-                                "id": "10200",
-                                "src": "/images/Storyboard/Memoires_00.webp",
-                                "alt": "Mémoires des cendres cover",
-                                "video": false
-                            
-                            },
-                            {
-                                "id": "10201",
-                                "src": "/images/Storyboard/Memoires_01.webp",
-                                "alt": "Mémoires des cendres storyboard",
-                                "video": false
-                            
-                            },
-                            {
-                                "id": "10202",
-                                "src": "/images/Storyboard/Memoires_02.webp",
-                                "alt": "Mémoires des cendres storyboard",
-                                "video": false
-                            
-                            },
-                            {
-                                "id": "10203",
-                                "src": "/images/Storyboard/Memoires_03.webp",
-                                "alt": "Mémoires des cendres storyboard",
-                                "video": false                    
-                            }
-                        ]
-                },
-                {
-                    "id": "203",
                     "Name": "Zaza the fish",
                     "Situation": "Bouba & Zaza The Animated Series - UNESCO / Michel Lafon / Gobelins - Pilot Excerpt Animatic",
                     "contents":
                         [
                             {
-                                "id": "20300",
+                                "id": "10200",
                                 "src": "https://www.youtube.com/embed/3r3L-Kuv5YI",
                                 "video": true
                             },
                             {
-                                "id": "20301",
+                                "id": "10201",
                                 "src": "/images/Storyboard/Zaza_00.avif",
                                 "alt": "Bouba & Zaza storyboard",
                                 "video": false
                             },
                             {
-                                "id": "20302",
+                                "id": "10202",
                                 "src": "/images/Storyboard/Zaza_01.avif",
                                 "alt": "Bouba & Zaza storyboard",
                                 "video": false
                             },
                             {
-                                "id": "20303",
+                                "id": "10203",
                                 "src": "/images/Storyboard/Zaza_02.avif",
                                 "alt": "Bouba & Zaza storyboard",
                                 "video": false
@@ -290,7 +255,42 @@
                         ]
                 },
                 {
-                    "id": "204",
+                    "id": "103",
+                    "Name": "Mémoires des cendres",
+                    "Situation": "Digital Graphic Novel Project about the Spanish Civil War - Story Board and Final Illustrations - 2025",
+                    "contents":
+                        [
+                            {
+                                "id": "10300",
+                                "src": "/images/Storyboard/Memoires_00.webp",
+                                "alt": "Mémoires des cendres cover",
+                                "video": false
+                            
+                            },
+                            {
+                                "id": "10301",
+                                "src": "/images/Storyboard/Memoires_01.webp",
+                                "alt": "Mémoires des cendres storyboard",
+                                "video": false
+                            
+                            },
+                            {
+                                "id": "10302",
+                                "src": "/images/Storyboard/Memoires_02.webp",
+                                "alt": "Mémoires des cendres storyboard",
+                                "video": false
+                            
+                            },
+                            {
+                                "id": "10303",
+                                "src": "/images/Storyboard/Memoires_03.webp",
+                                "alt": "Mémoires des cendres storyboard",
+                                "video": false                    
+                            }
+                        ]
+                },
+                {
+                    "id": "104",
                     "Name": "A Sweet Tale",
                     "Situation": "ANNECY FESTIVAL 2024 Opening Shortfilm - Thumbnails & Storyboards",
                     "contents":
@@ -707,19 +707,31 @@
         "title": "Sketchbook",
         "slug": "sketchbook",
         "image": "/images/Poster/SketchbookCover.avif",
-        "alt": "Image from concept of Popol Vuh",
+        "alt": "Image of Day and Night",
         "projects":
             [
                 {
                     "id": "500",
-                    "Name": "Gran Guacamayo",
+                    "Name": "",
                     "Situation": "",
                     "contents": 
                     [
                         {
                             "id": "50000",
-                            "src": "/images/Sketchbook/Guacamayo_00.avif",
-                            "alt": "Gran Guacamayo",
+                            "src": "/images/Sketchbook/Sketchbook1.avif",
+                            "alt": "Collection of sketches",
+                            "video": false
+                        },
+                        {
+                            "id": "50001",
+                            "src": "/images/Sketchbook/Sketchbook2.avif",
+                            "alt": "Collection of sketches",
+                            "video": false
+                        },
+                        {
+                            "id": "50002",
+                            "src": "/images/Sketchbook/Sketchbook3.avif",
+                            "alt": "Collection of sketches",
                             "video": false
                         }
                     ]
