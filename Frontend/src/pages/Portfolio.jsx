@@ -15,7 +15,6 @@ function Portfolio() {
       projects: proj.projects,
       contents: proj.contents,
     })) ?? [];
-    console.log("hola, estoy en portfolio y data es", data);
 
   return (
     <section id="portfolio">

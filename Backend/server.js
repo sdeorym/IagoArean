@@ -5,6 +5,8 @@ import url from "url";
 import cors from "cors";
 import dotenv from "dotenv";
 import { Resend } from 'resend';
+import retrieveCat from './routeFiles/categories.js';
+import retrievePf from './routeFiles/portfolio.js';
 
 dotenv.config();
 
@@ -43,19 +45,23 @@ app.get("/", async (req, res) => {
   res.sendFile(path.join(__dirname, 'dist', '/index.html'));
 });
 
-app.get('/data/', (req, res) => {
-    const projfile = path.join(__dirname, '/public/data/proyectos.json');
-    const content = fs.readFileSync(projfile, 'utf-8');
-    const data = JSON.parse(content);
-    res.status(200).json(data);
+app.get(['/admin', '/admin/{*splat}'], async (req, res) => {
+  res.sendFile(path.join(__dirname, 'dist', '/admin.html'));
 });
 
+/*app.get('/data/', (req, res) => {
+  const projfile = path.join(__dirname, '/public/data/proyectos.json');
+  const content = fs.readFileSync(projfile, 'utf-8');
+  const data = JSON.parse(content);
+  res.status(200).json(data);
+});*/
+app.get('/data/', retrievePf);
+app.get('/category', retrieveCat);
 
 app.post("/sendmail/", async (req, res) => {
   const url= process.env.MAIL_URL;
   const API_key = process.env.RESEND_API_KEY;
 
-  console.log("Entrando en sendmail");
   const { username, email, message } = req.body;
 
   const resend = new Resend(API_key);

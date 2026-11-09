@@ -5,7 +5,15 @@ import path from 'path'; // For routing issues
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-    resolve: {
+  build: {
+    rollupOptions: {
+      input: {
+        public: 'index.html',
+        admin: 'admin.html'
+      }
+    }
+  },
+  resolve: {
     alias: {
       '@styles': path.resolve(__dirname, './src/styles'),
       '@pages': path.resolve(__dirname, './src/pages'),
@@ -13,6 +21,7 @@ export default defineConfig({
       '@components': path.resolve(__dirname, './src/components'),
       '@assets' : path.resolve(__dirname, './src/assets'),
       '@data' :path.resolve(__dirname, './src/data'),
+      '@admin': path.resolve(__dirname, './src/admin'),
     },
   },
 })

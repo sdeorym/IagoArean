@@ -1,7 +1,6 @@
 
 function CajaModal({content}) {
 
-
 return (
     <>
         <div className="caja">
@@ -9,7 +8,6 @@ return (
         </div>
     </>
 )
-
 }
 
 export default CajaModal

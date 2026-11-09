@@ -1,0 +1,576 @@
+swagger: '2.0'
+info:
+  title: Iago Arean Works API documentation
+  description: Contains all available API endpoints in this codebase
+  version: '1.0.0'
+  termsOfService: 'http://swagger.io/terms/'
+host: localhost:3001
+basePath: /api/v1
+schemes:
+  - http
+paths:
+  /user/login:
+    post:
+      tags:
+        - User Module
+      summary: Login
+      description: API for Login
+      parameters:
+        - in: body
+          name: body
+          description: Login Payload
+          required: true
+          schema:
+            $ref: '#/definitions/Login'
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Login Successfully
+          schema:
+            $ref: '#/definitions/LoginResponse'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error
+  /user/signup:
+    post:
+      tags:
+        - User Module
+      summary: Signup
+      description: API for Signup
+      parameters:
+        - in: body
+          name: body
+          description: Signup Payload
+          required: true
+          schema:
+            $ref: '#/definitions/User'
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Signup Successfully
+          schema:
+            $ref: '#/definitions/ApiResponse'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error
+  /user/profile:
+    get:
+      security:
+        - Bearer: []
+      tags:
+        - User Module
+      summary: User Profile API
+      description: API for fetching a user profile
+      #produces:
+       # - application/json
+      responses:
+        '200':
+          description: User profile retrieved successfully
+          schema:
+            $ref: '#/definitions/ApiResponse'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error
+    put:
+      security:
+        - Bearer: []
+      tags:
+        - User Module
+      summary: User Profile API
+      description: API for updating a user profile
+      parameters:
+        - in: body
+          name: body
+          description: Update user profile attributes
+          required: true
+          schema:
+            $ref: '#/definitions/UserProfile'
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: User profile retrieved successfully
+          schema:
+            $ref: '#/definitions/ApiResponse'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error
+  /category:
+    post:
+      security:
+        - Bearer: []
+      tags:
+        - Admin Module
+      summary: Admin Categories
+      description: API to create new categories
+      parameters:
+        - in: body
+          name: body
+          description: Category Payload
+          required: true
+          schema:
+            $ref: '#/definitions/Category'
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Added Successfully
+          schema:
+            $ref: '#/definitions/CatCreationResponse'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error        
+    get:
+      tags:
+        - Admin Module
+      summary: existing categories within portfolio
+      description: API for fetching all existing categories in the portfolio
+      parameters:
+        - in: path
+          name: category
+          description: Category Payload
+          required: true
+          type: string         
+      responses:
+        '200':
+          description: Categories retrieved successfully
+          schema:
+            $ref: '#/definitions/Category'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error        
+  /category/{category_id}:
+    get:
+      tags:
+        - Admin Module
+      summary: a specific existing category within portfolio
+      description: API for fetching a specific category in the portfolio
+      parameters:
+        - in: path
+          name: category_id
+          description: Category Payload
+          required: true
+          type: string         
+      responses:
+        '200':
+          description: Categories retrieved successfully
+          schema:
+            $ref: '#/definitions/Category'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error 
+    put:
+      security:
+        - Bearer: []
+      tags:
+        - Admin Module
+      summary: Admin Categories 
+      description: API to update existing categories
+      parameters:
+        - in: body
+          name: Category Id
+          description: Category Payload
+          required: true
+          schema:
+            $ref: '#/definitions/Category'
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Updated Successfully
+          schema:
+            $ref: '#/definitions/CatUpdateResponse'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error 
+    delete:
+      security:
+        - Bearer: []
+      tags:
+        - Admin Module
+      summary: Admin Categories 
+      description: API to delete existing categories
+      parameters:
+        - in: body
+          name: Category Id
+          description: Category Payload
+          required: true
+          schema:
+            $ref: '#/definitions/Category'
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Deleted Successfully
+          schema:
+            $ref: '#/definitions/CatDeletionResponse'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error
+  /project:
+    post:
+      security:
+        - Bearer: []
+      tags:
+        - Admin Module
+      summary: Admin Projects
+      description: API to create new projects
+      parameters:
+        - in: body
+          name: body
+          description: Project Payload
+          required: true
+          schema:
+            $ref: '#/definitions/Project'
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Added Successfully
+          schema:
+            $ref: '#/definitions/PrjCreationResponse'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error        
+    get:
+      tags:
+        - Admin Module
+      summary: existing projects within portfolio
+      description: API for fetching all existing projects in the portfolio
+      parameters:
+        - in: path
+          name: project
+          description: Project Payload
+          required: true
+          type: string         
+      responses:
+        '200':
+          description: Projects retrieved successfully
+          schema:
+            $ref: '#/definitions/Project'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error        
+  /project/{project_id}:
+    get:
+      tags:
+        - Admin Module
+      summary: a specific existing project within portfolio
+      description: API for fetching a specific project in the portfolio
+      parameters:
+        - in: path
+          name: project_id
+          description: Project Payload
+          required: true
+          type: string         
+      responses:
+        '200':
+          description: Projects retrieved successfully
+          schema:
+            $ref: '#/definitions/Project'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error 
+    put:
+      security:
+        - Bearer: []
+      tags:
+        - Admin Module
+      summary: Admin Projects 
+      description: API to update existing projects
+      parameters:
+        - in: body
+          name: Project Id
+          description: Project Payload
+          required: true
+          schema:
+            $ref: '#/definitions/Project'
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Updated Successfully
+          schema:
+            $ref: '#/definitions/PrjUpdateResponse'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error 
+    delete:
+      security:
+        - Bearer: []
+      tags:
+        - Admin Module
+      summary: Admin Projects 
+      description: API to delete existing projects
+      parameters:
+        - in: body
+          name: Project Id
+          description: Project Payload
+          required: true
+          schema:
+            $ref: '#/definitions/Project'
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Deleted Successfully
+          schema:
+            $ref: '#/definitions/PrjDeletionResponse'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error
+  /content:
+    post:
+      security:
+        - Bearer: []
+      tags:
+        - Admin Module
+      summary: Admin Works
+      description: API to create new works
+      parameters:
+        - in: body
+          name: body
+          description: Content Payload
+          required: true
+          schema:
+            $ref: '#/definitions/Content'
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Added Successfully
+          schema:
+            $ref: '#/definitions/CntCreationResponse'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error        
+    get:
+      tags:
+        - Admin Module
+      summary: existing contents within portfolio
+      description: API for fetching all existing works in the portfolio
+      parameters:
+        - in: path
+          name: content
+          description: Content Payload
+          required: true
+          type: string         
+      responses:
+        '200':
+          description: Contents retrieved successfully
+          schema:
+            $ref: '#/definitions/Content'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error        
+  /content/{content_id}:
+    get:
+      tags:
+        - Admin Module
+      summary: a specific existing work within portfolio
+      description: API for fetching a specific work in the portfolio
+      parameters:
+        - in: path
+          name: content_id
+          description: Content Payload
+          required: true
+          type: string         
+      responses:
+        '200':
+          description: Works retrieved successfully
+          schema:
+            $ref: '#/definitions/Content'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error 
+    put:
+      security:
+        - Bearer: []
+      tags:
+        - Admin Module
+      summary: Admin Contents 
+      description: API to update existing works
+      parameters:
+        - in: body
+          name: Content Id
+          description: Content Payload
+          required: true
+          schema:
+            $ref: '#/definitions/Content'
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Updated Successfully
+          schema:
+            $ref: '#/definitions/CntUpdateResponse'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error 
+    delete:
+      security:
+        - Bearer: []
+      tags:
+        - Admin Module
+      summary: Admin Contents 
+      description: API to delete existing works
+      parameters:
+        - in: body
+          name: Content Id
+          description: Content Payload
+          required: true
+          schema:
+            $ref: '#/definitions/Content'
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Deleted Successfully
+          schema:
+            $ref: '#/definitions/CntDeletionResponse'
+        '400':
+          description: Invalid Fields
+        '500':
+          description: Internal Server Error
+securityDefinitions:
+  Bearer:
+    type: apiKey
+    name: Authorization
+    in: header
+definitions:
+  Login:
+    properties:
+      email:
+        type: string
+        description: user email
+      password:
+        type: string
+        description: user password
+  LoginResponse:
+    type: object
+    properties:
+      token:
+        type: string
+  User:
+    properties:
+      email:
+        type: string
+        description: user email
+      password:
+        type: string
+        description: user password
+      userName:
+        type: string
+        description: user public name
+  ApiResponse:
+    type: object
+    properties:
+      status:
+        type: integer
+      message:
+        type: string
+      body:
+        type: object
+        properties:
+          id:
+            type: string
+          email:
+            type: string
+  Category:
+    type: object
+    properties:
+      title:
+        type: string
+      slug:
+        type: string
+      image:
+        type: string
+      alt:
+        type: string
+  CatCreationResponse:
+    type: object
+    properties:
+      category:
+        type: string
+  CatUpdateResponse:
+    type: object
+    properties:
+      category:
+        type: string
+  CatDeletionResponse:
+    type: object
+    properties:
+      category:
+        type: string
+  Project:
+    type: object
+    properties:
+      title:
+        type: string
+      slug:
+        type: string
+      image:
+        type: string
+      alt:
+        type: string
+  PrjCreationResponse:
+    type: object
+    properties:
+      category:
+        type: string
+  PrjUpdateResponse:
+    type: object
+    properties:
+      category:
+        type: string
+  PrjDeletionResponse:
+    type: object
+    properties:
+      category:
+        type: string
+  Content:
+    type: object
+    properties:
+      title:
+        type: string
+      slug:
+        type: string
+      image:
+        type: string
+      alt:
+        type: string
+  CntCreationResponse:
+    type: object
+    properties:
+      category:
+        type: string
+  CntUpdateResponse:
+    type: object
+    properties:
+      category:
+        type: string
+  CntDeletionResponse:
+    type: object
+    properties:
+      category:
+        type: string

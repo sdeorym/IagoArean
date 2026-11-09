@@ -150,7 +150,6 @@
                         ]
                 }
             ]
-
     },
     {
         "id": 1,
@@ -179,7 +178,7 @@
                     "Situation": "Gobelins Graduation Film - Story Beats / Thumbnails / Storyboard",
                     "contents":
                         [
-                                                        {
+                            {
                                 "id": "10100",
                                 "src": "/images/Storyboard/Demon_00.webp",
                                 "alt": "The boy and the Demon storyboard",
